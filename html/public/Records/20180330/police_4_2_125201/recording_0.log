@@ -1,0 +1,707 @@
+Local Date: Fri Mar 30 13:38:13 2018
+Build info: Feb  1 2018 02:13:47 ?
+
+INFO    (13:38:13:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:13:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:15:368 |  182)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:38:15:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:38:16:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:16:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:16:476 |  290)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:38:16:476 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:19:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:19:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:21:481 |  295)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:22:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:22:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:23:185 |    0)  27405; **CALL STATS: duraton 46m19s cpu app/total 8.8/27.14 battery 255 tx/rx: 0/1 kbps 646.20K/539.343K bytes
+INFO    (13:38:25:186 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:38:25:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:26:488 |  302)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:28:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:28:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:31:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:31:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:31:495 |  309)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:38:31:496 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:33:368 |    0)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:38:33:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:38:34:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:34:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:36:184 |    0)  27405; [rs] **report stats: seq: 1898, report list size 38, tx/rx: 379700/91104, cache size: 0, report success rate: 100
+INFO    (13:38:36:505 |  321)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:37:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:37:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:40:187 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:38:40:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:41:511 |  324)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:43:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:43:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:46:188 |    2)  27405; bypass setCodec, override state is in force
+INFO    (13:38:46:188 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:46:519 |  331)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:38:46:519 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:49:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:49:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:51:368 |  182)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:38:51:526 |  158)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:51:588 |   62)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:38:52:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:52:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:53:186 |    0)  27405; **CALL STATS: duraton 46m49s cpu app/total 7.84/28.1 battery 255 tx/rx: 0/1 kbps 652.394K/544.123K bytes
+INFO    (13:38:55:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:55:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:56:531 |  345)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:38:58:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:38:58:187 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:39: 1:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39: 1:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39: 1:542 |  356)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:39: 1:542 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39: 4:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39: 4:186 |    9)  27405; bypass setCodec, override state is in force
+INFO    (13:39: 6:547 |  361)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39: 7:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39: 7:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39: 9:368 |  182)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:39: 9:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:39:10:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:10:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:11:184 |    0)  27405; [rs] **report stats: seq: 1915, report list size 37, tx/rx: 383298/91920, cache size: 0, report success rate: 100
+INFO    (13:39:11:552 |  368)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:13:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:13:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:16:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:16:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:16:559 |  373)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:39:16:559 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:19:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:19:187 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:39:21:568 |  381)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:22:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:22:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:25:184 |    8)  27405; **CALL STATS: duraton 47m21s cpu app/total 8.41/33.49 battery 255 tx/rx: 1/1 kbps 659.177K/549.243K bytes
+INFO    (13:39:25:186 |    2)  27405; bypass setCodec, override state is in force
+INFO    (13:39:26:578 |  392)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:27:368 |    0)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:39:27:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:39:28:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:28:187 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:39:31:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:31:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:31:586 |  400)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:39:31:587 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:34:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:34:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:36:596 |  410)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:37:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:37:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:40:186 |   10)  27405; bypass setCodec, override state is in force
+INFO    (13:39:41:184 |    0)  27405; [rs] **report stats: seq: 1930, report list size 37, tx/rx: 386484/92640, cache size: 0, report success rate: 100
+INFO    (13:39:41:602 |  418)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:43:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:43:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:45:368 |  182)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:39:45:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:39:46:188 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:46:189 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:39:46:608 |  419)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:39:46:608 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:49:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:49:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:51:614 |  427)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:52:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:52:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:55:184 |    0)  27405; **CALL STATS: duraton 47m51s cpu app/total 7.80/28.22 battery 255 tx/rx: 2/1 kbps 665.860K/554.23K bytes
+INFO    (13:39:55:186 |    2)  27405; bypass setCodec, override state is in force
+INFO    (13:39:55:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:56:625 |  439)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:39:58:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:39:58:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40: 1:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40: 1:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40: 1:637 |  451)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:40: 1:638 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40: 3:368 |    0)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:40: 3:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:40: 4:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40: 4:187 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40: 6:650 |  463)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40: 7:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40: 7:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:10:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:10:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:11:657 |  471)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:13:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:13:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:16:184 |    0)  27405; [rs] **report stats: seq: 1947, report list size 37, tx/rx: 390077/93456, cache size: 0, report success rate: 100
+INFO    (13:40:16:186 |    2)  27405; bypass setCodec, override state is in force
+INFO    (13:40:16:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:16:663 |  477)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:40:16:663 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:19:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:19:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:21:368 |  192)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:40:21:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:40:21:673 |   85)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:22:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:22:187 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:26:185 |    9)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:27:185 |    0)  27405; **CALL STATS: duraton 48m23s cpu app/total 9.31/30.24 battery 255 tx/rx: 3/1 kbps 672.754K/559.269K bytes
+INFO    (13:40:28:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:28:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40:31:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:31:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40:31:189 |   12)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:40:31:189 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:34:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:34:187 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40:36:198 |   11)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:37:186 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:37:187 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40:39:368 |  181)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:40:39:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:40:40:178 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:40:179 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40:41:208 |   29)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:46:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:46:185 |    8)  27405; [rs] **report stats: seq: 1962, report list size 37, tx/rx: 393263/94176, cache size: 0, report success rate: 100
+INFO    (13:40:46:217 |   32)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:40:46:217 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:51:224 |   48)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:52:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:56:234 |   58)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:40:57:368 |  134)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:40:57:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:40:58:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:40:58:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:40:59:185 |    8)  27405; **CALL STATS: duraton 48m55s cpu app/total 8.17/29.4 battery 255 tx/rx: 1/0 kbps 679.530K/564.271K bytes
+INFO    (13:41: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41: 1:244 |   68)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:41: 1:244 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41: 4:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41: 4:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:41: 6:253 |   76)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41: 7:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41: 7:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:10:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:10:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:41:11:263 |   86)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:13:179 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:13:179 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:15:368 |  189)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:41:15:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:41:16:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:16:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:41:16:278 |  101)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:41:16:279 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:19:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:19:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:21:184 |    8)  27405; [rs] **report stats: seq: 1980, report list size 37, tx/rx: 397092/95040, cache size: 0, report success rate: 100
+INFO    (13:41:21:285 |  101)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:22:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:22:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:25:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:41:26:289 |  112)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:28:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:28:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:31:179 |    3)  27405; bypass setCodec, override state is in force
+INFO    (13:41:31:179 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:31:184 |    5)  27405; **CALL STATS: duraton 49m27s cpu app/total 8.37/28.43 battery 255 tx/rx: 0/1 kbps 686.124K/569.343K bytes
+INFO    (13:41:31:297 |  113)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:41:31:298 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:33:368 |   70)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:41:33:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:41:34:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:34:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:41:36:304 |  127)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:37:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:37:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:41:313 |  137)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:43:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:43:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:46:319 |  142)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:41:46:320 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:51:186 |   10)  27405; [rs] **report stats: seq: 1995, report list size 37, tx/rx: 400261/95760, cache size: 0, report success rate: 100
+INFO    (13:41:51:336 |  150)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:51:368 |   32)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:41:51:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:41:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:55:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:41:56:347 |  170)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:41:58:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:41:58:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42: 1:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42: 1:352 |  175)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:42: 1:353 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42: 1:353 |    0)  27405; [rp] {"che.audio.dump":true}
+INFO    (13:42: 3:184 |    0)  27405; **CALL STATS: duraton 49m59s cpu app/total 8.33/27.94 battery 255 tx/rx: 3/1 kbps 693.244K/574.589K bytes
+INFO    (13:42: 4:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42: 4:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42: 6:358 |  182)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42: 7:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42: 7:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42: 9:368 |  191)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:42: 9:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:42:10:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:10:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:11:368 |  192)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:13:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:13:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42:16:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:16:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:16:373 |  196)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:42:16:373 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:19:178 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:19:179 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42:21:379 |  200)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:22:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:22:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:25:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42:26:184 |    7)  27405; [rs] **report stats: seq: 2013, report list size 38, tx/rx: 404077/96624, cache size: 0, report success rate: 100
+INFO    (13:42:26:387 |  203)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:27:368 |    0)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:42:27:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:42:28:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:28:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:31:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:31:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42:31:394 |  217)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:42:31:394 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:31:394 |    0)  27405; [rp] {"che.audio.dump":false}
+INFO    (13:42:34:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:34:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:35:184 |    7)  27405; **CALL STATS: duraton 50m31s cpu app/total 7.96/27.61 battery 255 tx/rx: 1/0 kbps 699.1021K/579.591K bytes
+INFO    (13:42:36:403 |  219)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:37:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:37:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:41:412 |  236)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:45:368 |  192)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:42:45:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:42:46:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:46:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:46:416 |  240)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:42:46:417 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:49:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:49:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:51:423 |  246)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:52:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:55:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:42:56:429 |  252)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:42:58:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:42:58:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43: 1:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43: 1:184 |    7)  27405; [rs] **report stats: seq: 2030, report list size 37, tx/rx: 407670/97440, cache size: 0, report success rate: 100
+INFO    (13:43: 1:437 |  253)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:43: 1:438 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43: 3:368 |    0)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:43: 3:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:43: 4:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43: 4:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43: 6:446 |  269)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43: 7:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43: 7:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43: 7:184 |    7)  27405; **CALL STATS: duraton 51m3s cpu app/total 8.41/26.82 battery 255 tx/rx: 0/1 kbps 706.595K/584.663K bytes
+INFO    (13:43:10:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:10:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43:11:457 |  280)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:13:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:13:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:16:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:16:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43:16:467 |  290)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:43:16:467 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:19:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:19:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:21:368 |  191)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:43:21:477 |  109)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:21:588 |  111)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:43:22:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:22:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:25:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43:26:482 |  305)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:28:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:28:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:31:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:31:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:31:184 |    7)  27405; [rs] **report stats: seq: 2045, report list size 38, tx/rx: 410846/98160, cache size: 0, report success rate: 100
+INFO    (13:43:31:487 |  303)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:43:31:487 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:34:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:34:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:36:493 |  316)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:37:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:37:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43:37:189 |   12)  27405; **CALL STATS: duraton 51m33s cpu app/total 8.25/27.18 battery 255 tx/rx: 0/1 kbps 712.969K/589.443K bytes
+INFO    (13:43:39:368 |  179)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:43:39:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:43:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:41:502 |  326)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:46:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:46:508 |  331)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:43:46:508 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:49:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:43:51:517 |  340)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:52:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:52:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:56:528 |  352)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:43:57:368 |    0)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:43:57:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:43:58:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:43:58:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44: 1:533 |  357)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:44: 1:534 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44: 4:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44: 4:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44: 6:184 |    7)  27405; [rs] **report stats: seq: 2064, report list size 39, tx/rx: 414925/99072, cache size: 0, report success rate: 100
+INFO    (13:44: 6:539 |  355)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44: 7:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44: 7:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44: 9:184 |    7)  27405; **CALL STATS: duraton 52m5s cpu app/total 8.41/27.45 battery 255 tx/rx: 2/2 kbps 720.357K/594.785K bytes
+INFO    (13:44:10:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:10:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:11:545 |  368)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:13:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:13:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:15:368 |  191)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:44:15:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:44:16:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:16:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:16:550 |  373)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:44:16:551 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:19:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:19:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:21:560 |  383)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:22:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:22:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:25:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:26:568 |  391)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:28:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:28:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:31:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:31:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:31:583 |  406)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:44:31:583 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:33:368 |    0)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:44:33:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:44:34:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:34:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:36:588 |  411)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:37:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:37:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:40:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:41:184 |    7)  27405; [rs] **report stats: seq: 2080, report list size 37, tx/rx: 418300/99840, cache size: 0, report success rate: 100
+INFO    (13:44:41:185 |    1)  27405; **CALL STATS: duraton 52m37s cpu app/total 8.0/26.8 battery 255 tx/rx: 0/0 kbps 726.899K/599.691K bytes
+INFO    (13:44:41:594 |  409)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:43:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:46:601 |  424)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:44:46:601 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:51:368 |  192)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:44:51:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:44:51:607 |   19)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:52:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:55:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:44:56:612 |  435)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:44:58:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:44:58:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45: 1:620 |  444)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:45: 1:621 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45: 4:178 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45: 4:179 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:45: 6:631 |  452)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45: 7:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45: 7:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:45: 9:368 |  191)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:45: 9:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:45:10:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:10:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:45:11:638 |  461)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:13:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:13:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:45:13:184 |    7)  27405; **CALL STATS: duraton 53m9s cpu app/total 9.9/27.31 battery 255 tx/rx: 1/1 kbps 733.736K/604.763K bytes
+INFO    (13:45:16:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:16:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:45:16:184 |    7)  27405; [rs] **report stats: seq: 2098, report list size 37, tx/rx: 422146/100704, cache size: 0, report success rate: 100
+INFO    (13:45:16:650 |  466)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:45:16:650 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:19:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:19:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:21:655 |  478)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:22:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:22:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:45:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:26:664 |  488)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:27:368 |    0)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:45:27:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:45:28:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:28:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:31:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:31:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:31:674 |  497)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:45:31:675 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:34:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:34:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:36:683 |  507)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:37:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:37:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:41:188 |   12)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:43:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:43:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:43:184 |    7)  27405; **CALL STATS: duraton 53m39s cpu app/total 7.84/27.5 battery 255 tx/rx: 0/1 kbps 739.968K/609.543K bytes
+INFO    (13:45:45:368 |  184)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:45:45:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:45:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:46:184 |    7)  27405; [rs] **report stats: seq: 2113, report list size 37, tx/rx: 425325/101424, cache size: 0, report success rate: 100
+INFO    (13:45:46:193 |    9)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:45:46:193 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:49:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:45:51:200 |   23)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:52:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:45:55:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:55:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:56:208 |   31)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:45:58:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:45:58:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:46: 1:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46: 1:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:46: 1:217 |   40)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:46: 1:217 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46: 3:368 |  151)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:46: 3:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:46: 4:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46: 4:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:46: 6:226 |   49)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46: 7:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46: 7:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:46:10:179 |    2)  27405; bypass setCodec, override state is in force
+INFO    (13:46:10:179 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:11:232 |   53)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:13:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:13:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:15:184 |    7)  27405; **CALL STATS: duraton 54m11s cpu app/total 8.0/26.96 battery 255 tx/rx: 3/2 kbps 747.251K/614.837K bytes
+INFO    (13:46:16:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:16:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:16:236 |   59)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:46:16:237 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:19:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:19:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:21:185 |    8)  27405; [rs] **report stats: seq: 2131, report list size 37, tx/rx: 429169/102240, cache size: 0, report success rate: 100
+INFO    (13:46:21:243 |   58)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:21:368 |  125)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:46:21:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:46:22:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:22:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:25:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:25:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:26:253 |   76)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:28:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:28:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:31:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:31:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:46:31:257 |   80)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:46:31:257 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:34:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:34:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:36:268 |   91)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:37:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:37:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:46:39:368 |  191)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:46:39:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:46:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:41:272 |   96)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:43:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:43:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:46:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:46:280 |  103)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:46:46:280 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:47:184 |    0)  27405; **CALL STATS: duraton 54m43s cpu app/total 8.25/27.18 battery 255 tx/rx: 0/0 kbps 753.874K/619.791K bytes
+INFO    (13:46:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:49:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:46:51:284 |  107)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:55:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:46:56:184 |    7)  27405; [rs] **report stats: seq: 2148, report list size 38, tx/rx: 432772/103104, cache size: 0, report success rate: 100
+INFO    (13:46:56:289 |  105)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:46:57:368 |   79)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:46:57:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:46:58:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:46:58:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47: 1:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47: 1:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47: 1:297 |  120)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:47: 1:297 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47: 4:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47: 4:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47: 6:304 |  128)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47: 7:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47: 7:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47:10:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:10:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:11:309 |  133)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:13:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:13:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:15:368 |  191)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:47:15:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:47:16:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:16:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47:16:314 |  137)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:47:16:315 |    1)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:19:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:19:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47:19:184 |    7)  27405; **CALL STATS: duraton 55m15s cpu app/total 9.18/10.38 battery 255 tx/rx: 1/1 kbps 760.647K/624.911K bytes
+INFO    (13:47:21:321 |  137)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:22:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:22:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:25:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:26:184 |    8)  27405; [rs] **report stats: seq: 2163, report list size 38, tx/rx: 435958/103824, cache size: 0, report success rate: 100
+INFO    (13:47:26:327 |  143)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:28:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:28:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47:31:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:31:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:31:333 |  156)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:47:31:333 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:33:368 |   35)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:47:33:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:47:34:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:34:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47:36:339 |  162)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:37:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:37:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:40:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:41:344 |  168)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:43:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:46:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:46:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47:46:350 |  173)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:47:46:350 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:49:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:51:184 |    8)  27405; **CALL STATS: duraton 55m47s cpu app/total 8.42/5.18 battery 255 tx/rx: 2/1 kbps 767.551K/630.133K bytes
+INFO    (13:47:51:356 |  172)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:51:368 |   12)  27407; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (13:47:51:588 |  220)  27407; Audio statistics - rec count: record count = 600 signal level: near_in = 0, near_out = 0 encode_in = 0
+INFO    (13:47:52:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:52:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:47:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:55:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:56:362 |  186)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+INFO    (13:47:58:176 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:47:58:177 |    1)  27405; bypass setCodec, override state is in force
+INFO    (13:48: 1:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:48: 1:177 |    0)  27405; bypass setCodec, override state is in force
+INFO    (13:48: 1:184 |    7)  27405; [rs] **report stats: seq: 2180, report list size 37, tx/rx: 439561/104640, cache size: 0, report success rate: 100
+INFO    (13:48: 1:369 |  185)  27390; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (13:48: 1:369 |    0)  27390; user: -1181564363 ,pcm frame count: 0 ,pcm frame confirm count: 0 ,yuv frame count: 0 ,yuv frame confirm count: 0 ,h264 frame count: 0 ,h264 frame confirm count: 0 
+WARN    (13:48: 2: 23 |    0)  27390; Before cleanup cnt 1, errno 11 4, joined_ 1, term_sig 0, leave path code 0
+INFO    (13:48: 2: 23 |    0)  27390; Leaving channel and ready to cleanup
+INFO    (13:48: 2: 23 |    0)  27390; API call to leave channel
+INFO    (13:48: 2: 23 |    0)  27405; [cm] emit leave channel signal
+INFO    (13:48: 2: 23 |    0)  27405; **CALL STATS: duration 56m0s, tx 770.409K bytes, rx 632.93K bytes, total 1.378M bytes
+INFO    (13:48: 2: 24 |    1)  27405; stopLocalRender
+INFO    (13:48: 2: 24 |    0)  27405; stopLocalRender success
+INFO    (13:48: 2: 24 |    0)  27405; AgoraVideoInput::Stop
+INFO    (13:48: 2: 24 |    0)  27416; Thread with name:WebRtc_event_timer_thread stopped
+INFO    (13:48: 2: 24 |    0)  27405; AgoraVideoInput::Destroy
+INFO    (13:48: 2: 24 |    0)  27415; Thread with name:ExternalCaptureThread stopped
+INFO    (13:48: 2: 68 |   44)  27414; Thread with name:AgoraInputThread stopped
+INFO    (13:48: 2: 75 |    7)  27405; stopCapture: stopCapture success
+INFO    (13:48: 2: 75 |    0)  27405; stopRemoteRender
+INFO    (13:48: 2: 75 |    0)  27405; [che] stopCall begins
+INFO    (13:48: 2: 75 |    0)  27405; StopRecording complete
+INFO    (13:48: 2: 76 |    1)  27405; StopPlayout complete
+INFO    (13:48: 2: 76 |    0)  27405; [che] stop call returns 0, elapsed 0
+INFO    (13:48: 2: 76 |    0)  27405; [rs] **report stats: seq: 2185, report list size 40, tx/rx: 440437/104736, cache size: 0, report success rate: 100
+INFO    (13:48: 2: 76 |    0)  27405; CacheManager: save cache to storage elapsed 0
+INFO    (13:48: 2: 76 |    0)  27405; [ch0] vos destroyed
+INFO    (13:48: 2: 77 |    1)  27405; delRef of media engine, ref=0
+INFO    (13:48: 2: 77 |    0)  27405; [che] chat engine destroying
+INFO    (13:48: 2: 77 |    0)  27405; stopLocalRender
+INFO    (13:48: 2: 77 |    0)  27405; stopLocalRender success
+WARN    (13:48: 2: 77 |    0)  27405; stopCapture: VideoEngine haven't startCapture
+INFO    (13:48: 2: 77 |    0)  27405; stopRemoteRender
+INFO    (13:48: 2: 77 |    0)  27405; [che] stopCall begins
+INFO    (13:48: 2: 77 |    0)  27405; [che] stop call returns -1, elapsed 0
+INFO    (13:48: 2: 78 |    1)  27405; stopLocalRender
+INFO    (13:48: 2: 78 |    0)  27405; stopLocalRender success
+INFO    (13:48: 2: 78 |    0)  27405; stopRemoteRender
+WARN    (13:48: 2: 78 |    0)  27405; stopCapture: VideoEngine haven't startCapture
+INFO    (13:48: 2: 78 |    0)  27411; Thread with name:VideoProcessThread stopped
+WARN    (13:48: 2: 78 |    0)  27405; terminate: VideoEngine haven't init
+INFO    (13:48: 2: 78 |    0)  27405; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+INFO    (13:48: 2: 83 |    5)  27417; Thread with name:VideoEncodeThread stopped
+INFO    (13:48: 2: 90 |    7)  27405; VideoSendTrackImpl::UpdateCapturer capturer=(nil)
+INFO    (13:48: 2: 90 |    0)  27405; VideoSendTrackImpl::UpdateRenderer, renderer=(nil)
+INFO    (13:48: 2: 90 |    0)  27409; Thread with name:EngineMonitorThread stopped
+INFO    (13:48: 2: 91 |    1)  27407; Thread with name:external_audio_module_thread stopped
+INFO    (13:48: 2: 91 |    0)  27408; Thread with name:WebRtc_event_timer_thread stopped
+INFO    (13:48: 2: 91 |    0)  27405; [che] chat engine destroyed
+INFO    (13:48: 2: 91 |    0)  27405; ***CALL END
+INFO    (13:48: 2: 91 |    0)  27405; onAudioStatusChanged enable audio
+INFO    (13:48: 2: 92 |    1)  27405; [MIO] media io controller destroyed
+INFO    (13:48: 2: 92 |    0)  27390; async task notify worker thread to exit and return

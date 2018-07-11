@@ -1,0 +1,246 @@
+Local Date: Fri Mar 30 22:21:16 2018
+Build info: Feb  1 2018 02:13:47 ?
+
+INFO    (22:21:16:402 |    0)   4112; [rp] {"rtc.video.mute_me":true,"che.video.local.send":false}
+INFO    (22:21:16:402 |    0)   4112; [rp] {"rtc.audio.mute_me":true,"che.audio.mute_me":true}
+INFO    (22:21:16:402 |    0)   4112; [rp] {"rtc.video.set_remote_default_video_stream_type":0}
+INFO    (22:21:16:402 |    0)   4112; API call to SetRemoteDefaultVideoStreamType: 0
+INFO    (22:21:16:402 |    0)   4112; [rp] {"che.video.local.camera_index":1024}
+INFO    (22:21:16:402 |    0)   4112; [rp] {"rtc.video.enabled":true}
+INFO    (22:21:16:402 |    0)   4112; API call to enable video
+INFO    (22:21:16:403 |    1)   4112; ***CALL BEGIN: appid:'c7****************************1c' cname:'police_14_3' info:'' sid:'D1EC26F183024D35BFFF12EA742B2DFC'
+INFO    (22:21:16:403 |    0)   4112; addRef of media engine, ref=1
+INFO    (22:21:16:403 |    0)   4112; [che] create chat engine, ctx:(nil)
+INFO    (22:21:16:403 |    0)   4112; [MYDEBUG] large group call false
+INFO    (22:21:16:403 |    0)   4112; ChatEngineParameterHelper::applyMediaEngineMode: 
+INFO    (22:21:16:403 |    0)   4112; applyMediaEngineMode(): Hardware encoding false Hardware decoding false
+INFO    (22:21:16:405 |    2)   4114; Thread with name:external_audio_module_thread started 
+INFO    (22:21:16:405 |    0)   4115; Thread with name:WebRtc_event_timer_thread started 
+INFO    (22:21:16:405 |    0)   4112; StereoPlayoutIsAvailable(), output: available=0
+INFO    (22:21:16:405 |    0)   4112; StereoRecordingIsAvailable(), output: available=0
+INFO    (22:21:16:405 |    0)   4116; Thread with name:EngineMonitorThread started 
+INFO    (22:21:16:405 |    0)   4112; setMuteStatus, muted: On
+INFO    (22:21:16:405 |    0)   4112; setMuteOutput, muted: false
+WARN    (22:21:16:405 |    0)   4112; setMicSensitivity failed, legal values are between [0, 10]
+INFO    (22:21:16:406 |    1)   4112; Audio Engine Init success
+INFO    (22:21:16:406 |    0)   4112; Available number of cores:1
+INFO    (22:21:16:406 |    0)   4112; CreateVideoSendTrack
+INFO    (22:21:16:406 |    0)   4112; init: feature prerotation disabled
+INFO    (22:21:16:406 |    0)   4112; Agora Engine video codec set to custom mode role mode 0
+INFO    (22:21:16:406 |    0)   4112; Agora Engine video codec index 1
+INFO    (22:21:16:406 |    0)   4112; Agora Engine video stream type = 0
+INFO    (22:21:16:407 |    1)   4117; Thread with name:VideoEncodeThread started 
+INFO    (22:21:16:407 |    0)   4112; EncoderWrapper::Create hardware_ = 0, hardware_low_ = 0
+INFO    (22:21:16:407 |    0)   4118; Thread with name:VideoProcessThread started 
+INFO    (22:21:16:407 |    0)   4112; setCodec: index=1 width=640 height=360 framerate=15
+INFO    (22:21:16:407 |    0)   4112; h264WebInteropEnable: enable 0
+INFO    (22:21:16:407 |    0)   4112; setCaptureDevice: index=1024
+INFO    (22:21:16:407 |    0)   4112; setMaxVideoBitrate: max bitrate=0
+INFO    (22:21:16:407 |    0)   4112; more fec enable 0 curr fec method 0
+INFO    (22:21:16:407 |    0)   4112; video fec method 0
+ERROR   (22:21:16:408 |    1)   4112; videoEngine created and initialize here
+INFO    (22:21:16:408 |    0)   4112; CreateVideoSendTrack
+INFO    (22:21:16:408 |    0)   4112; [MIO] updateCapturer: ((nil)), type:(1)
+INFO    (22:21:16:408 |    0)   4112; CreateAgoraDefaultCapture: type=0
+INFO    (22:21:16:408 |    0)   4112; CreateVideoCapturer: interface=0x7f9f64172af0
+INFO    (22:21:16:408 |    0)   4112; VideoSendTrackImpl::UpdateCapturer capturer=0x7f9f641d4c10
+INFO    (22:21:16:408 |    0)   4112; [MIO] updateLocalRender: ((nil)), type:(1)
+INFO    (22:21:16:408 |    0)   4112; CreateAgoraDefaultRender
+INFO    (22:21:16:408 |    0)   4112; CreateVideoRenderer: interface=0x7f9f641d5090
+INFO    (22:21:16:408 |    0)   4112; VideoSendTrackImpl::UpdateRenderer, renderer=0x7f9f641d50d0
+INFO    (22:21:16:408 |    0)   4112; [MIO] video send track prepared !!
+INFO    (22:21:16:408 |    0)   4112; [che] applyVideoProfile: 640x360 15 fps 500 kbps
+INFO    (22:21:16:408 |    0)   4112; validateVideoParameters: validate video parameters resolution 640x360, fps 15, rate 500000
+INFO    (22:21:16:408 |    0)   4112; setMaxVideoBitrate: max bitrate=500000
+INFO    (22:21:16:408 |    0)   4112; setCodecRates: set frame rate to 15
+INFO    (22:21:16:409 |    1)   4112; setCodec: index=1 width=640 height=360 framerate=15
+INFO    (22:21:16:409 |    0)   4112; setCodecResolution: set to 640 x 360
+INFO    (22:21:16:409 |    0)   4112; [che] chat engine initialized
+INFO    (22:21:16:409 |    0)   4112; [vocs] vocs initialized
+INFO    (22:21:16:409 |    0)   4112; [rs] report server ip: 221.228.78.123:8000
+INFO    (22:21:16:410 |    1)   4112; [rlbs] selected: 221.228.78.123:9700
+INFO    (22:21:16:410 |    0)   4112; [rlbs] request rs list from 221.228.78.123:9700.......
+INFO    (22:21:16:410 |    0)   4112; CacheManager: save cache to storage elapsed 0
+INFO    (22:21:16:410 |    0)   4112; [cm] emit join channel signal, size=2
+INFO    (22:21:16:410 |    0)   4112; CacheManager: save cache to storage elapsed 0
+INFO    (22:21:16:411 |    1)   4112; [vocs] lookup channel...
+INFO    (22:21:16:411 |    0)   4112; [vocs] selected: 119.9.92.49:8000
+INFO    (22:21:16:411 |    0)   4112; connecting to 119.9.92.49:8000 handle 6420fdd0, 28
+INFO    (22:21:16:411 |    0)   4112; [vocs] creating channel with 119.9.92.49:8000, ts 1522448476411.......
+INFO    (22:21:16:411 |    0)   4112; [vocs] selected: 69.28.51.138:8000
+INFO    (22:21:16:411 |    0)   4112; [vocs] creating channel with 69.28.51.138:8000, ts 1522448476411.......
+INFO    (22:21:16:411 |    0)   4112; [vocs] selected: 221.228.202.134:8000
+INFO    (22:21:16:411 |    0)   4112; [vocs] creating channel with 221.228.202.134:8000, ts 1522448476411.......
+INFO    (22:21:16:411 |    0)   4112; [rp] {"che.audio.audioSampleRate":48000}
+INFO    (22:21:16:412 |    1)   4112; [dns] parsed ip 199.190.44.35
+INFO    (22:21:16:412 |    0)   4112; [dns] parsed ip 199.190.44.36
+INFO    (22:21:16:412 |    0)   4112; [rs] dns parse result code: 0, servers size: 1
+INFO    (22:21:16:412 |    0)   4112; [rs] dns parse and selected server: 223.111.12.227
+INFO    (22:21:16:425 |   13)   4112; [dns] parsed ip 128.1.87.146
+INFO    (22:21:16:425 |    0)   4112; [dns] parsed ip 69.28.51.138
+INFO    (22:21:16:425 |    0)   4112; [dns] parsed ip 119.9.92.49
+INFO    (22:21:16:566 |  141)   4112; [vocs/u] **responsed from 69.28.51.138:8000, 3 vos, elapsed 165, server ts 1522448475966, wan ip 139.59.134.76
+INFO    (22:21:16:566 |    0)   4112; [vos] added server: 69.172.244.35:4004
+INFO    (22:21:16:566 |    0)   4112; [vos] added server: 107.155.14.131:4006
+INFO    (22:21:16:566 |    0)   4112; [vos] added server: 128.1.78.114:4003
+INFO    (22:21:16:566 |    0)   4112; [ch0] vos initialized
+INFO    (22:21:16:566 |    0)   4112; [vos] selected: 128.1.78.114:4003
+ERROR   (22:21:16:567 |    1)   4112; [ch0] login strategy=2
+INFO    (22:21:16:567 |    0)   4112; [ds]: ver 1 ds '{"streamType":5}'
+INFO    (22:21:16:567 |    0)   4112; [ch0] Login VOS (proto:10, cid:1169406064, uid:1838691077, ts:1522448476567, ticket size:84 ds:1 stream:+A+VH) 2: 128.1.78.114:4003
+INFO    (22:21:16:567 |    0)   4112; add ping address 139.59.134.76
+INFO    (22:21:16:567 |    0)   4112; PING 139.59.134.76:0 16(44) bytes of data
+INFO    (22:21:16:576 |    9)   4112; [ch0] **VOS response to login request (res 0 elapsed 175, server ts 1522448476049, s-c:-527) from 128.1.78.114:4003, and current dest server 128.1.78.114:4003
+INFO    (22:21:16:576 |    0)   4112; updateActiveVosList: ["128.1.78.114:4003"]
+INFO    (22:21:16:576 |    0)   4112; [che] start call begins
+INFO    (22:21:16:576 |    0)   4112; Set Application Mode in RTC Engine to No. 0
+ERROR   (22:21:16:576 |    0)   4112; GetCodec() invalid index (error=8004)
+INFO    (22:21:16:576 |    0)   4112; SetCodec by type : No. 85
+INFO    (22:21:16:585 |    9)   4112; StartPlayout complete
+INFO    (22:21:16:586 |    1)   4112; output: kDummyAudio
+INFO    (22:21:16:595 |    9)   4112; StartRecording complete
+ERROR   (22:21:16:595 |    0)   4112; SetAgcConfig() failed to set the range in |gain| the digital compression stage may apply (error=8097)
+INFO    (22:21:16:595 |    0)   4112; SetHowlingControl enable = 0
+INFO    (22:21:16:595 |    0)   4112; Application Config module:  Route 0, NS on, AEC N, AGC on, BSS off, HC on
+INFO    (22:21:16:595 |    0)   4112; MID = 0, Routing = 0
+INFO    (22:21:16:595 |    0)   4112; [che] applyVideoProfile: 640x360 15 fps 500 kbps
+INFO    (22:21:16:596 |    1)   4112; validateVideoParameters: validate video parameters resolution 640x360, fps 15, rate 500000
+INFO    (22:21:16:596 |    0)   4112; setMaxVideoBitrate: max bitrate=500000
+INFO    (22:21:16:596 |    0)   4112; setCodecRates: set frame rate to 15
+INFO    (22:21:16:596 |    0)   4112; setCodec: index=1 width=640 height=360 framerate=15
+INFO    (22:21:16:596 |    0)   4112; setCodecResolution: set to 640 x 360
+INFO    (22:21:16:596 |    0)   4112; CreateVideoCapturer: interface=0x7f9f64172c90
+INFO    (22:21:16:596 |    0)   4112; VideoSendTrackImpl::UpdateCapturer capturer=0x7f9f6421f9d0
+INFO    (22:21:16:596 |    0)   4112; Create participant 0
+INFO    (22:21:16:596 |    0)   4112; startCapture: device? 1024 init? 1 local enabled? 1 capturing? 0 rendering? 0
+INFO    (22:21:16:596 |    0)   4112; startCapture: Receive Only Mode, capture still on. Encode will be turned off
+INFO    (22:21:16:596 |    0)   4112; AgoraVideoInput::Init thread=1, type=100, device=External Device
+INFO    (22:21:16:596 |    0)   4119; Thread with name:AgoraInputThread started 
+INFO    (22:21:16:596 |    0)   4120; Thread with name:ExternalCaptureThread started 
+INFO    (22:21:16:597 |    1)   4112; setCodec: index=1 width=640 height=360 framerate=15
+INFO    (22:21:16:597 |    0)   4112; setMaxVideoBitrate: max bitrate=500000
+INFO    (22:21:16:597 |    0)   4112; AgoraVideoInput::Start width=640, height=360, fps=15
+INFO    (22:21:16:597 |    0)   4121; Thread with name:WebRtc_event_timer_thread started 
+INFO    (22:21:16:597 |    0)   4112; startCapture: startCapture success
+INFO    (22:21:16:597 |    0)   4112; RequestEncodeKeyFrame
+INFO    (22:21:16:597 |    0)   4112; doStartLocalRender: init? 1 capture id -1 device 1024 capturing? 1 rendering? 0
+INFO    (22:21:16:597 |    0)   4112; doStartLocalRender: Receive Only Mode, local renderer still on.
+INFO    (22:21:16:597 |    0)   4112; doStartLocalRender: init? 1 capture id -1 device 1024 capturing? 1 rendering? 0
+INFO    (22:21:16:597 |    0)   4112; doStartLocalRender: Receive Only Mode, local renderer still on.
+INFO    (22:21:16:597 |    0)   4112; [che] start call returns 0, elapsed 21
+INFO    (22:21:16:597 |    0)   4112; Setting dtx mode to 2
+INFO    (22:21:16:597 |    0)   4112; setNetEQMinimumPlayoutDelay delay(100)
+INFO    (22:21:16:598 |    1)   4112; join channel success: cname 'police_14_3' uid 1838691077 elapsed 197
+INFO    (22:21:16:598 |    0)   4112; CacheManager: save cache to storage elapsed 0
+INFO    (22:21:16:598 |    0)   4113; Channel counters: mix mode:0 , min port:-1 , max port:-1 ,decode audio:0 , decode_video:0 , is live:0 , idle:300 , is audio only:0 ,syslog facility:8 , mix mode height:360 , mix mode width:640 , mix mode fps:15 , mi 
+INFO    (22:21:16:598 |    0)   4113; User 1838691077 join channel police_14_3 success, elapsed: 197 ms
+INFO    (22:21:16:605 |    7)   4112; [ch0] rtt: 7
+INFO    (22:21:16:613 |    8)   4112; [vocs/u] **responsed from 119.9.92.49:8000, 3 vos, elapsed 213, server ts 1522448475983, wan ip 139.59.134.76
+INFO    (22:21:16:635 |   22)   4112; [rlbs/u] responsed from 221.228.78.123:9700 with servers 128.1.78.91:8000
+INFO    (22:21:16:663 |   28)   4119; [che] onVideoSizeChanged: uid 0 640x360 rotate 0
+INFO    (22:21:18:577 |    0)   4112; notifyPeerCount: cnt 0
+INFO    (22:21:21:402 |    0)   4112; [rs] **report stats: seq: 11, report list size 11, tx/rx: 2210/528, cache size: 0, report success rate: -1
+INFO    (22:21:22:585 |  183)   4114; Audio statistics - play count: playout count = 200  signal level: far_in = 0
+INFO    (22:21:31:413 |    0)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:21:36:585 |  172)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:21:46:426 |    0)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:21:50:401 |    0)   4112; **CALL STATS: duraton 31s cpu app/total 2.2/8.0 battery 255 tx/rx: 2/1 kbps 9.431K/5.412K bytes
+INFO    (22:21:54:585 |  184)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:21:56:401 |    0)   4112; [rs] **report stats: seq: 24, report list size 24, tx/rx: 5210/1152, cache size: 0, report success rate: 100
+INFO    (22:22: 1:441 |   40)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:22:12:585 |  144)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:22:16:455 |    0)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:22:20:401 |    0)   4112; **CALL STATS: duraton 1m1s cpu app/total 2.1/8.50 battery 255 tx/rx: 1/1 kbps 15.209K/8.922K bytes
+INFO    (22:22:26:401 |    0)   4112; [rs] **report stats: seq: 33, report list size 33, tx/rx: 7259/1584, cache size: 0, report success rate: 100
+INFO    (22:22:30:585 |  184)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:22:31:468 |    0)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:22:46:483 |   15)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:22:48:585 |  102)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:22:52:401 |    0)   4112; **CALL STATS: duraton 1m33s cpu app/total 2.0/14.7 battery 255 tx/rx: 1/1 kbps 21.611K/12.660K bytes
+INFO    (22:23: 1:401 |    0)   4112; [rs] **report stats: seq: 44, report list size 22, tx/rx: 9772/2112, cache size: 0, report success rate: 100
+INFO    (22:23: 1:497 |   96)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:23: 6:585 |   88)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:23:16:511 |    0)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:23:22:402 |    0)   4112; **CALL STATS: duraton 2m3s cpu app/total 1.53/5.2 battery 255 tx/rx: 1/1 kbps 27.697K/16.146K bytes
+INFO    (22:23:24:585 |  183)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:23:31:525 |    0)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:23:36:401 |    0)   4112; [rs] **report stats: seq: 54, report list size 21, tx/rx: 12079/2592, cache size: 0, report success rate: 100
+INFO    (22:23:42:585 |  184)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:23:46:540 |    0)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:23:54:401 |    0)   4112; **CALL STATS: duraton 2m35s cpu app/total 1.51/8.0 battery 255 tx/rx: 1/0 kbps 34.88K/19.830K bytes
+INFO    (22:24: 0:585 |  184)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:24: 1:556 |    0)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:24: 6:401 |    0)   4112; [rs] **report stats: seq: 63, report list size 22, tx/rx: 14143/3024, cache size: 0, report success rate: 100
+INFO    (22:24:16:571 |  170)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:24:18:585 |   14)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:24:26:401 |    0)   4112; **CALL STATS: duraton 3m7s cpu app/total 1.51/4.95 battery 255 tx/rx: 1/1 kbps 40.480K/23.568K bytes
+INFO    (22:24:31:585 |  184)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:24:36:585 |    0)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:24:41:400 |    0)   4112; [rs] **report stats: seq: 73, report list size 22, tx/rx: 16435/3504, cache size: 0, report success rate: 100
+INFO    (22:24:46:600 |  200)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:24:54:585 |    0)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:24:58:401 |    0)   4112; **CALL STATS: duraton 3m39s cpu app/total 1.51/4.97 battery 255 tx/rx: 1/1 kbps 46.872K/27.306K bytes
+INFO    (22:25: 1:613 |  212)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:25:11:401 |    0)   4112; [rs] **report stats: seq: 82, report list size 22, tx/rx: 18494/3936, cache size: 0, report success rate: 100
+INFO    (22:25:12:585 |  184)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:25:16:627 |   42)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:25:30:401 |    0)   4112; **CALL STATS: duraton 4m11s cpu app/total 1.51/6.0 battery 255 tx/rx: 1/0 kbps 53.484K/31.14K bytes
+INFO    (22:25:30:585 |  184)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:25:31:641 |   56)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:25:46:400 |    0)   4112; [rs] **report stats: seq: 93, report list size 23, tx/rx: 21007/4464, cache size: 0, report success rate: 100
+INFO    (22:25:46:656 |  256)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:25:48:585 |    0)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:26: 1:670 |   85)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+INFO    (22:26: 2:401 |    0)   4112; **CALL STATS: duraton 4m43s cpu app/total 1.98/14.92 battery 255 tx/rx: 1/1 kbps 59.866K/34.776K bytes
+INFO    (22:26: 6:585 |  184)   4114; Audio statistics - play count: playout count = 600  signal level: far_in = 0
+INFO    (22:26:16:685 |  100)   4097; [ARS/15s]event cnts:0, audio pkts:0, mix audio pkts:0, yuv video pkts:0, h264 video pkts:0
+WARN    (22:26:18:401 |    0)   4113; No users in channel for 300 seconds, aborting, leave_code:4.
+INFO    (22:26:18:686 |  285)   4097; ARS push leave pkt to queue inform wrapper
+WARN    (22:26:19:187 |    0)   4097; Before cleanup cnt 0, errno 2 4, joined_ 1, term_sig 1, leave path code 12
+INFO    (22:26:19:187 |    0)   4097; Leaving channel and ready to cleanup
+INFO    (22:26:19:187 |    0)   4097; API call to leave channel
+INFO    (22:26:19:187 |    0)   4112; [cm] emit leave channel signal
+WARN    (22:26:19:188 |    1)   4113; No users in channel for 300 seconds, aborting, leave_code:12.
+INFO    (22:26:19:188 |    0)   4112; **CALL STATS: duration 5m2s, tx 63.859K bytes, rx 36.984K bytes, total 100.819K bytes
+INFO    (22:26:19:188 |    0)   4112; stopLocalRender
+INFO    (22:26:19:188 |    0)   4112; stopLocalRender success
+INFO    (22:26:19:188 |    0)   4112; AgoraVideoInput::Stop
+INFO    (22:26:19:188 |    0)   4121; Thread with name:WebRtc_event_timer_thread stopped
+INFO    (22:26:19:188 |    0)   4112; AgoraVideoInput::Destroy
+INFO    (22:26:19:188 |    0)   4120; Thread with name:ExternalCaptureThread stopped
+INFO    (22:26:19:241 |   53)   4119; Thread with name:AgoraInputThread stopped
+INFO    (22:26:19:249 |    8)   4112; stopCapture: stopCapture success
+INFO    (22:26:19:249 |    0)   4112; stopRemoteRender
+INFO    (22:26:19:249 |    0)   4112; [che] stopCall begins
+INFO    (22:26:19:249 |    0)   4112; StopRecording complete
+INFO    (22:26:19:249 |    0)   4112; StopPlayout complete
+INFO    (22:26:19:250 |    1)   4112; [che] stop call returns 0, elapsed 0
+INFO    (22:26:19:250 |    0)   4112; [rs] **report stats: seq: 106, report list size 25, tx/rx: 23768/4896, cache size: 0, report success rate: 100
+INFO    (22:26:19:250 |    0)   4112; CacheManager: save cache to storage elapsed 0
+INFO    (22:26:19:250 |    0)   4112; [ch0] vos destroyed
+INFO    (22:26:19:250 |    0)   4112; delRef of media engine, ref=0
+INFO    (22:26:19:250 |    0)   4112; [che] chat engine destroying
+INFO    (22:26:19:250 |    0)   4112; stopLocalRender
+INFO    (22:26:19:250 |    0)   4112; stopLocalRender success
+WARN    (22:26:19:251 |    1)   4112; stopCapture: VideoEngine haven't startCapture
+INFO    (22:26:19:251 |    0)   4112; stopRemoteRender
+INFO    (22:26:19:251 |    0)   4112; [che] stopCall begins
+INFO    (22:26:19:251 |    0)   4112; [che] stop call returns -1, elapsed 0
+INFO    (22:26:19:251 |    0)   4112; stopLocalRender
+INFO    (22:26:19:251 |    0)   4112; stopLocalRender success
+INFO    (22:26:19:251 |    0)   4112; stopRemoteRender
+WARN    (22:26:19:251 |    0)   4112; stopCapture: VideoEngine haven't startCapture
+INFO    (22:26:19:251 |    0)   4118; Thread with name:VideoProcessThread stopped
+WARN    (22:26:19:251 |    0)   4112; terminate: VideoEngine haven't init
+INFO    (22:26:19:251 |    0)   4112; [DEBUGG] ViERenderManager Destructor, engine_id: 0
+INFO    (22:26:19:253 |    2)   4117; Thread with name:VideoEncodeThread stopped
+INFO    (22:26:19:262 |    9)   4112; VideoSendTrackImpl::UpdateCapturer capturer=(nil)
+INFO    (22:26:19:262 |    0)   4112; VideoSendTrackImpl::UpdateRenderer, renderer=(nil)
+INFO    (22:26:19:262 |    0)   4116; Thread with name:EngineMonitorThread stopped
+INFO    (22:26:19:262 |    0)   4114; Thread with name:external_audio_module_thread stopped
+INFO    (22:26:19:262 |    0)   4115; Thread with name:WebRtc_event_timer_thread stopped
+INFO    (22:26:19:262 |    0)   4112; [che] chat engine destroyed
+INFO    (22:26:19:262 |    0)   4112; ***CALL END
+INFO    (22:26:19:263 |    1)   4112; onAudioStatusChanged enable audio
+INFO    (22:26:19:263 |    0)   4112; [MIO] media io controller destroyed
+INFO    (22:26:19:263 |    0)   4097; async task notify worker thread to exit and return

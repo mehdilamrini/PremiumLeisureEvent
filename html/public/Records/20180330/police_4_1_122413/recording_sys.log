@@ -1,0 +1,34 @@
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:831: ERROR:failed to open config file
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:831: ERROR:failed to open config file
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:430: [Wrapper version] 5d0b257a42f9514a024cc62c69161d55aa150021
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:431: =======params ======
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: /var/www/html/RecordingSDK/bin/AgoraCoreService
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --app_id
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: c7adb7f97a594d9fac501654c7bf281c
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --channel_key
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: c7adb7f97a594d9fac501654c7bf281c
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --channel_id
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: police_4_1
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --idle
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: 300
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --decode_audio
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: 0
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --decode_video
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: 0
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --capture_interval
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: 5
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --syslog_fclt
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: 8
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --streamType
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: 0
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --serviceMode
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: 0
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --recording_file_dir
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: /var/www/panic2.greenvoo.us/html/public/Records/20180330/police_4_1_122413/
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: --lang
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:433: 0
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/base/pipe_router.cpp:153: The ARS created. Reading pipe: 4, writing pipe: 7, pid: 25031
+recorder_local[25031]: (25031) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/base/process.cpp:184: Failed to call execvp(/var/www/html/RecordingSDK/bin/AgoraCoreService): No such file or directory
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:542: API call to leave channel
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:64: Recorder 2377790 is ready to be release
+recorder_local[25030]: (25030) /var/lib/jenkins/workspace/agora-release-linux-2/ServerSDK-Video/src/rec_engine/RecordingEngineImpl.cpp:87: Recording wrapper delete timer

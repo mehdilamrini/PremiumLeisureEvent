@@ -1,0 +1,3 @@
+<version>2.0</version>
+<tag></tag>
+<channel name>police_test_2</channel name>
