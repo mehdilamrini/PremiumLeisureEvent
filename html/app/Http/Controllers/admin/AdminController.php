@@ -133,6 +133,7 @@ public  function  validate_confirmation(Request $request){
             $booking = new Booking();
 
             $booking->idUser = Auth::id();
+
             $booking->date = $request->date;
             $booking->to = $request->to;
             $booking->tel = $request->tel;

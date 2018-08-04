@@ -43,19 +43,42 @@ var WizardDemo = function () {
                     email: true 
                 },       
                 tel: {
-                    required: true,
-                    //phoneUS: true
+                    required: true
+
                 },
 
                 to: {
-                    required: true,
+                    required: true
                     //phoneUS: true
                 },
 
                 ust: {
-                    required: true,
+                    required: true
                     //phoneUS: true
-                }
+                },
+
+                acc: {
+                    required: true
+
+                },
+
+                arrival: {
+                    required: true
+
+                },
+
+                departure: {
+                    required: true
+
+                },
+
+                amount: {
+                    required: true
+
+                },
+
+
+
 
 
 
@@ -111,6 +134,8 @@ var WizardDemo = function () {
 
 
                     }
+
+
                 });
             }
         });
