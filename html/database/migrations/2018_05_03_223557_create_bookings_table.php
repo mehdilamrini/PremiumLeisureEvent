@@ -21,7 +21,7 @@ class CreateBookingsTable extends Migration
             $table->string('tel');
             $table->string('email');
             $table->string('ustldnr');
-            $table->string('conf_invoice');
+            $table->increments('conf_invoice');
             $table->string('free_golf_shuttles');
             $table->string('caddies_buggies');
             $table->float('amount');

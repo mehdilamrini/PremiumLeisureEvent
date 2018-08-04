@@ -138,7 +138,7 @@ public  function  validate_confirmation(Request $request){
             $booking->tel = $request->tel;
             $booking->email = $request->email;
             $booking->ustldnr = $request->ust;
-            $booking->conf_invoice = $request->inv;
+            //$booking->conf_invoice = $request->inv;
 
             if ($request->shuttle_included != null )
             $booking->free_golf_shuttles = $request->shuttle_included;

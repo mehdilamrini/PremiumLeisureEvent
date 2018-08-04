@@ -28,7 +28,21 @@ License: You must have a valid license purchased only from themeforest(the above
 
     @yield('style')
 
+<style>
 
+    .line {
+
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 2px;
+
+    }
+
+</style>
 
     <script>
         WebFont.load({
@@ -232,9 +246,9 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
 
                                 <?php $var=0; ?>
-
                                 <div class="m-invoice__body m-invoice__body--centered">
 
+                                    <hr class="line" >
 
                                     <div class="table-responsive">
                                         <table class="table">
@@ -293,7 +307,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
                                 @foreach($teetimes as $t)
                                 <div class="m-invoice__body m-invoice__body--centered">
-
+                                    <hr class="line" >
 
                                     <div class="table-responsive">
                                         <table class="table">
@@ -362,7 +376,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
                                 <div class="m-invoice__body m-invoice__body--centered">
 
-
+                                    <hr class="line" >
                                     <div class="table-responsive">
                                         <table class="table">
                                             <thead>
@@ -424,6 +438,8 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
                                             </tbody>
                                         </table>
+
+                                        <hr class="line" >
                                     </div>
                                 </div>
 

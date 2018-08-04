@@ -55,11 +55,8 @@ var WizardDemo = function () {
                 ust: {
                     required: true,
                     //phoneUS: true
-                },
-                inv: {
-                    required: true,
-                    //phoneUS: true
-                },
+                }
+
 
 
             },
