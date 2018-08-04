@@ -37,8 +37,9 @@ class HomeController extends Controller
             $id=Auth::id();
 
 
-        $user= User::where('id',$id)->first();
+            $user= User::where('id',$id)->first();
             $bookings= $user->bookings()->orderBy('created_at', 'desc')->get();
+            //return $bookings;
             return view('admin.dashboard',compact('bookings'));
 
         }

@@ -118,7 +118,9 @@
                                             <br>
                                             <span class="m-widget24__desc">
                                                 </span>
-                                            <span class="m-widget24__stats m--font-brand" id="size">{{count($bookings)}}
+                                            <span class="m-widget24__stats m--font-brand" id="size">
+
+                                                {{count($bookings)}}
                                                 </span>
                                             <div class="m--space-10"></div>
 
@@ -148,7 +150,7 @@
                                                         $var+= count($booking->vouchers()->first())  ?>
 
                                                     @endforeach
-{{$var}}
+                                                            {{$var}}
                                                 </span>
                                             <div class="m--space-10"></div>
 
