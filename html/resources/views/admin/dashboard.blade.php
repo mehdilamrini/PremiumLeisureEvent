@@ -197,7 +197,6 @@
                                             <th>To</th>
                                             <th>Email</th>
                                             <th>Tel</th>
-                                            <th>Ust-ldNr</th>
                                             <th>Num Invoice</th>
                                             <th>Created-at</th>
 
@@ -212,8 +211,7 @@
                                                 <td> {{$booking->to}}</td>
                                                 <td>{{$booking->email}}</td>
                                                 <td>{{$booking->tel}}</td>
-                                                <td>{{$booking->ustldnr}}</td>
-                                                <td>{{$booking->conf_invoice}}</td>
+                                                <td>{{$booking->id}}</td>
                                                 <td>{{$booking->created_at}}</td>
                                             </tr>
                                             @empty

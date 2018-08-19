@@ -1,357 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3c62165-118e-4601-87b0-5d9a2a6c5b13" name="Default" comment="first commit">
+    <list default="true" id="f3c62165-118e-4601-87b0-5d9a2a6c5b13" name="Default" comment="Required fields in the initial form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/app/Booking.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/app/Booking.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_1_150904/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_1_150904/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_1_150904/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_1_150904/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_1_150904/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_1_150904/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_2_150914/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_2_150914/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_2_150914/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_2_150914/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_2_150914/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_2_150914/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_3_150924/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_3_150924/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_3_150924/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_3_150924/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_3_150924/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_11_3_150924/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_1_154150/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_1_154150/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_1_154150/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_1_154150/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_1_154150/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_1_154150/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_2_154200/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_2_154200/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_2_154200/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_2_154200/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_2_154200/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_2_154200/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_3_154210/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_3_154210/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_3_154210/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_3_154210/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_3_154210/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_12_3_154210/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_222056/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_222056/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_222056/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_222056/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_222056/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_222056/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/2_20180330230227995.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/2_20180330230228000.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/3_20180330230343467.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/3_20180330230344745.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/uid_2_20180330230227995.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_1_230226/uid_3_20180330230343467.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_2_222106/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_2_222106/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_2_222106/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_2_222106/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_2_222106/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_2_222106/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_3_222116/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_3_222116/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_3_222116/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_3_222116/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_3_222116/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_14_3_222116/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_1_115728/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_1_115728/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_1_115728/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_1_115728/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_1_115728/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_1_115728/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_2_115738/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_2_115738/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_2_115738/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_2_115738/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_2_115738/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_2_115738/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_3_115748/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_3_115748/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_3_115748/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_3_115748/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_3_115748/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_3_3_115748/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_120045/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_120045/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_120045/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_120045/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_120045/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_120045/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122413/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123435442.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123436315.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123521874.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123542184.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123633962.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123634404.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123646735.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123912202.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/2_20180330123912535.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/4_20180330123011042.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/4_20180330123015389.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330124018062.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330124018537.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330124225092.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330124225864.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330124424042.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330124424544.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330124440884.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330125320172.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330125320584.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330125443281.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330125444215.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330130356571.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330130534902.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330130535335.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330131210292.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330131211525.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330131400602.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330131401274.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330131856852.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330131857193.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330132234282.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330132234723.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330132417631.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/5_20180330132418243.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/recording_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_2_20180330123435442.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_2_20180330123633962.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_2_20180330123912202.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_4_20180330123011042.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330124018062.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330124225092.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330124424042.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330125443282.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330130534902.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330131400602.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330131856852.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330132234282.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_1_122509/uid_5_20180330132417632.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_120055/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_120055/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_120055/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_120055/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_120055/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_120055/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_125201/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_125201/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_125201/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_125201/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_125201/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_125201/recording_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_2_125201/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_120105/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_120105/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_120105/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_120105/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_120105/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_120105/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_130452/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_130452/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_130452/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_130452/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_130452/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_130452/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153325/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153325/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153325/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153325/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153325/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153325/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153903/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153903/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153903/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153903/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153903/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153903/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153952/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153952/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153952/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153952/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153952/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_4_3_153952/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_1_143226/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_1_143226/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_1_143226/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_1_143226/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_1_143226/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_1_143226/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_2_143236/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_2_143236/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_2_143236/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_2_143236/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_2_143236/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_2_143236/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_3_143246/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_3_143246/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_3_143246/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_3_143246/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_3_143246/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_8_3_143246/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_1_144405/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_1_144405/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_1_144405/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_1_144405/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_1_144405/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_1_144405/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_2_144414/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_2_144414/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_2_144414/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_2_144414/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_2_144414/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_2_144414/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_3_144424/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_3_144424/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_3_144424/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_3_144424/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_3_144424/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180330/police_9_3_144424/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_132512/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_132512/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_132512/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_132512/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_132512/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_132512/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_1_132643/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_1_132643/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_1_132643/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_1_132643/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_1_132643/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_1_132643/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132831/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132831/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132831/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132831/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132831/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132831/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132834/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132834/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132834/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132834/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132834/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_132834/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_133628/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_133628/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_133628/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_133628/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_133628/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_2_133628/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_133711/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_133711/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_133711/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_133711/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_133711/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_133711/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_150437/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_150437/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_150437/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_150437/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_150437/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_3_150437/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_save_153526/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_save_153526/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_save_153526/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_save_153526/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_save_153526/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180331/police_test_save_153526/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/5_20180402110804048.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/5_20180402110804854.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/5_20180402110912341.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/5_20180402111019418.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/5_20180402111019751.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/5_20180402112104008.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/5_20180402112104496.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/uid_5_20180402110804048.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110803/uid_5_20180402111019418.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/5_20180402110911841.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/5_20180402110912346.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/5_20180402111019420.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/5_20180402111019753.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/5_20180402112104010.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/5_20180402112104497.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/uid_5_20180402110911841.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_110911/uid_5_20180402111019420.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/5_20180402111019425.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/5_20180402111019756.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/5_20180402112104005.aac" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/5_20180402112104486.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_14_1_111018/uid_5_20180402111019425.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test2_104615/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test2_104615/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test2_104615/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test2_104615/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test2_104615/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test2_104615/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test_104357/agorasdk.dat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test_104357/agorasdk.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test_104357/metadata.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test_104357/recording2-done.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test_104357/recording_0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/Records/20180402/police_test_104357/recording_sys.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/assets/agora/AgoraRTCSDK-2.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/database/migrations/2018_05_03_223557_create_bookings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/database/migrations/2018_05_03_223557_create_bookings_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abe1a377dc13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abe1daac6d62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abe26286e82b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abe26ed01c9d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abe36ff192e5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abe370f2a715.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abe598578d54.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abe5abe4d39f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/5abeb88054e69.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/Untitled1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/Untitled2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/Untitled3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/logo-footer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/logo-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/logo_default_dark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/logo_default_dark2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/logo_default_dark3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/recording.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/userpic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/public/uploads/waiting.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/resources/views/layouts/adminTemplate.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/layouts/adminTemplate.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -366,8 +29,11 @@
     <session id="1865942175">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -375,36 +41,43 @@
           <entry key="env" value="1" />
           <entry key="example" value="1" />
           <entry key="gif" value="1" />
-          <entry key="jpg" value="1" />
-          <entry key="js" value="5" />
-          <entry key="php" value="6" />
-          <entry key="png" value="1" />
+          <entry key="htaccess" value="1" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="7" />
+          <entry key="php" value="21" />
+          <entry key="png" value="9" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="3" />
-          <entry key="Image" value="3" />
-          <entry key="JavaScript" value="5" />
-          <entry key="PHP" value="3" />
+          <entry key="Blade" value="12" />
+          <entry key="Image" value="12" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PHP" value="9" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
+          <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="64" />
-          <entry key="php" value="130" />
-          <entry key="txt" value="34" />
+          <entry key="js" value="124" />
+          <entry key="php" value="1447" />
+          <entry key="txt" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="101" />
-          <entry key="JavaScript" value="64" />
-          <entry key="PHP" value="29" />
-          <entry key="PLAIN_TEXT" value="34" />
+          <entry key="Blade" value="1088" />
+          <entry key="JavaScript" value="124" />
+          <entry key="PHP" value="359" />
+          <entry key="PLAIN_TEXT" value="111" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.rename" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -412,56 +85,112 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="200" column="55" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-voucher.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="23" selection-start-column="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="558" column="181" selection-start-line="558" selection-start-column="181" selection-end-line="558" selection-end-column="181" />
+            <state relative-caret-position="185">
+              <caret line="161" column="67" selection-start-line="161" selection-start-column="57" selection-end-line="161" selection-end-column="67" />
               <folding>
-                <marker date="1533425598414" expanded="true" signature="13:36" ph="..." />
-                <marker date="1533425598414" expanded="true" signature="52:61" ph="..." />
-                <marker date="1533425598414" expanded="true" signature="172:248" ph="..." />
-                <marker date="1533425598414" expanded="true" signature="7789:7819" ph="..." />
-                <marker date="1533425598414" expanded="true" signature="41821:41839" ph="..." />
-                <marker date="1533425598414" expanded="true" signature="41939:41947" ph="..." />
-                <marker date="1533425598414" expanded="true" signature="56388:56457" ph="..." />
-                <marker date="1533425598414" expanded="true" signature="56521:56598" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="9:32" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="46:55" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="158:234" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="3071:3100" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="4901:4922" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="4961:4973" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="5019:5033" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="5080:5092" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="5138:5153" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="5199:5212" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="5258:5270" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="5380:5400" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="6077:6114" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="6256:6294" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="6380:6419" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="6591:6636" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="6869:6908" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="7137:7174" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="7515:7527" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="8853:8874" ph="..." />
+                <marker date="1534719584034" expanded="true" signature="9847:9865" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="35" />
+            <state relative-caret-position="271">
+              <caret line="314" column="64" selection-start-line="314" selection-start-column="64" selection-end-line="314" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js">
+        <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/auth/login.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="146" column="35" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="35" />
+            <state relative-caret-position="262">
+              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo1.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="436" column="66" selection-start-line="436" selection-end-line="437" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="213" column="66" selection-start-line="213" selection-start-column="66" selection-end-line="213" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="542" column="166" selection-start-line="542" selection-start-column="166" selection-end-line="542" selection-end-column="166" />
+              <folding>
+                <element signature="e#25770#30569#0#HTML" />
+                <element signature="e#32951#32971#0#HTML" expanded="true" />
+                <marker date="1534717517440" expanded="true" signature="13:36" ph="..." />
+                <marker date="1534717517440" expanded="true" signature="52:61" ph="..." />
+                <marker date="1534717517440" expanded="true" signature="172:248" ph="..." />
+                <marker date="1534717517440" expanded="true" signature="7789:7819" ph="..." />
+                <marker date="1534717517440" expanded="true" signature="46614:46632" ph="..." />
+                <marker date="1534717517440" expanded="true" signature="46732:46740" ph="..." />
+                <marker date="1534717517440" expanded="true" signature="68772:68841" ph="..." />
+                <marker date="1534717517440" expanded="true" signature="68905:68982" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -469,17 +198,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="159" column="64" selection-start-line="159" selection-start-column="64" selection-end-line="159" selection-end-column="64" />
+            <state relative-caret-position="336">
+              <caret line="293" lean-forward="true" selection-start-line="293" selection-end-line="293" />
+              <folding>
+                <element signature="e#46#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/HomeController.php">
+        <entry file="file://$PROJECT_DIR$/html/app/Booking.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="394">
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -488,20 +220,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;hr</find>
-      <find>conf</find>
-      <find>count</find>
-      <find>var</find>
-      <find>wizar</find>
-      <find>wizard.</find>
-      <find>form</find>
       <find>&lt;form</find>
-      <find>inv</find>
       <find>validate</find>
       <find>name</find>
       <find>4 dou</find>
       <find>m_wizard</find>
+      <find>la la-trash m--font-danger</find>
+      <find>delete_conf</find>
+      <find>delete_booking</find>
+      <find>inv</find>
       <find>acc</find>
+      <find>src</find>
+      <find>Guest's Names</find>
+      <find>first name</find>
+      <find>Free Golf Shuttles:</find>
+      <find>addpallet</find>
+      <find>boxc</find>
+      <find>boxcc</find>
+      <find>style=&quot;padding-bottom: 20px;&quot;</find>
+      <find>add</find>
+      <find>img</find>
+      <find>window.location</find>
+      <find>deleteuser</find>
+      <find>hotel</find>
+      <find>hr</find>
+      <find>Tee Times</find>
+      <find>true</find>
+      <find>shuttle_included</find>
+      <find>Num Invoice</find>
+      <find>line</find>
+      <find>m-login__logo</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/html/public/assets/agora</dir>
@@ -513,14 +261,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php" />
-        <option value="$PROJECT_DIR$/html/database/migrations/2018_05_03_223557_create_bookings_table.php" />
-        <option value="$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php" />
         <option value="$PROJECT_DIR$/html/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/html/database/migrations/2018_05_03_223557_create_bookings_table.php" />
+        <option value="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/datatables/base/html-table.js" />
+        <option value="$PROJECT_DIR$/html/resources/views/layouts/adminTemplate.blade.php" />
         <option value="$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php" />
-        <option value="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js" />
+        <option value="$PROJECT_DIR$/html/app/PrivateGolfTrans.php" />
+        <option value="$PROJECT_DIR$/html/database/migrations/2018_08_19_190922_create_private_golf_trans_table.php" />
         <option value="$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php" />
+        <option value="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js" />
+        <option value="$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php" />
+        <option value="$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php" />
+        <option value="$PROJECT_DIR$/html/app/Booking.php" />
+        <option value="$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php" />
+        <option value="$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php" />
+        <option value="$PROJECT_DIR$/html/resources/views/auth/login.blade.php" />
       </list>
     </option>
   </component>
@@ -533,6 +288,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/html/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ansi/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/artisan/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -618,10 +378,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
     <option name="y" value="23" />
-    <option name="width" value="1260" />
-    <option name="height" value="778" />
+    <option name="width" value="1440" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -629,6 +388,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -645,6 +405,25 @@
               <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -679,7 +458,7 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
@@ -689,8 +468,8 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
@@ -700,47 +479,58 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="logo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-              <item name="validation" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-              <item name="wizard" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/public/uploads" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo" />
+      <recent name="$PROJECT_DIR$/html/public/uploads" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -767,7 +557,9 @@
       <workItem from="1531329265807" duration="1639000" />
       <workItem from="1532545806172" duration="3023000" />
       <workItem from="1532560105614" duration="361000" />
-      <workItem from="1533417781806" duration="6250000" />
+      <workItem from="1533417781806" duration="10067000" />
+      <workItem from="1534239566472" duration="396000" />
+      <workItem from="1534703609247" duration="11746000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1533421693684</created>
@@ -776,21 +568,26 @@
       <option name="project" value="LOCAL" />
       <updated>1533421693684</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Required fields in the initial form">
+      <created>1533425852970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1533425852970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11273000" />
+    <option name="totallyTimeSpent" value="27232000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="23" width="1260" height="778" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27038628" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32944608" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32944608" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -799,9 +596,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32944608" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4212828" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.08309038" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.14363144" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.14363144" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32944608" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -816,16 +615,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Required fields in the initial form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Required fields in the initial form" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="261" column="74" lean-forward="true" selection-start-line="261" selection-start-column="74" selection-end-line="261" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/AirportController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-782" />
@@ -844,51 +637,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/GuestsNameController.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="95" column="33" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-          <folding>
-            <marker date="1532549054444" expanded="true" signature="9:32" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="44:53" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="156:232" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="2992:3021" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="4698:4719" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="4759:4771" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="4815:4829" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="4876:4888" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="4934:4949" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="4995:5008" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="5054:5066" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="5112:5132" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="5809:5846" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="5988:6026" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="6112:6151" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="6323:6368" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="6601:6640" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="6869:6906" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="7168:7180" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="8468:8489" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="9927:9949" ph="..." />
-            <marker date="1532549054444" expanded="true" signature="10830:10848" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/app/Booking.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/database/migrations/2018_05_03_223557_create_bookings_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/TeeTimesController.php">
       <provider selected="true" editor-type-id="text-editor" />
@@ -911,59 +659,21 @@
         <state relative-caret-position="-879" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-          <folding>
-            <element signature="e#4704#4708#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/public/uploads/5abe598578d54.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/public/uploads/waiting.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/public/1499345471_boy.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/uploads/5abe598578d54.jpg" />
+    <entry file="file://$PROJECT_DIR$/html/public/uploads/waiting.gif" />
     <entry file="file://$PROJECT_DIR$/html/resources/assets/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-70" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="200" column="55" selection-start-line="200" selection-start-column="52" selection-end-line="200" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-voucher.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="159" column="64" selection-start-line="159" selection-start-column="64" selection-end-line="159" selection-end-column="64" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/validation/form-widgets.js">
@@ -976,34 +686,223 @@
         <state relative-caret-position="-3085" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js">
+    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/custom/components/datatables/base/html-table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="146" column="35" selection-start-line="146" selection-start-column="27" selection-end-line="146" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/database/migrations/2018_05_03_223557_create_bookings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-voucher.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="25" column="35" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="35" />
+        <state relative-caret-position="180">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="77" column="15" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/uploads/vouchers/5af20a3f6dd70.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/uploads/vouchers/5af2ea439284e.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/1499345471_boy.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/iconuser.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/uploads/userpic.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/app/TeeTimes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/database/migrations/2018_05_03_225850_create_tee_times_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/database/migrations/2018_08_19_190922_create_private_golf_trans_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="25" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/app/PrivateGolfTrans.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/layouts/adminTemplate.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="168" column="60" lean-forward="true" selection-start-line="168" selection-start-column="60" selection-end-line="168" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="161" column="67" selection-start-line="161" selection-start-column="57" selection-end-line="161" selection-end-column="67" />
+          <folding>
+            <marker date="1534719584034" expanded="true" signature="9:32" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="46:55" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="158:234" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="3071:3100" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="4901:4922" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="4961:4973" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="5019:5033" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="5080:5092" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="5138:5153" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="5199:5212" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="5258:5270" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="5380:5400" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="6077:6114" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="6256:6294" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="6380:6419" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="6591:6636" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="6869:6908" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="7137:7174" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="7515:7527" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="8853:8874" ph="..." />
+            <marker date="1534719584034" expanded="true" signature="9847:9865" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/app/Booking.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="293" lean-forward="true" selection-start-line="293" selection-end-line="293" />
+          <folding>
+            <element signature="e#46#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="558" column="181" selection-start-line="558" selection-start-column="181" selection-end-line="558" selection-end-column="181" />
+        <state relative-caret-position="306">
+          <caret line="542" column="166" selection-start-line="542" selection-start-column="166" selection-end-line="542" selection-end-column="166" />
           <folding>
-            <marker date="1533425598414" expanded="true" signature="13:36" ph="..." />
-            <marker date="1533425598414" expanded="true" signature="52:61" ph="..." />
-            <marker date="1533425598414" expanded="true" signature="172:248" ph="..." />
-            <marker date="1533425598414" expanded="true" signature="7789:7819" ph="..." />
-            <marker date="1533425598414" expanded="true" signature="41821:41839" ph="..." />
-            <marker date="1533425598414" expanded="true" signature="41939:41947" ph="..." />
-            <marker date="1533425598414" expanded="true" signature="56388:56457" ph="..." />
-            <marker date="1533425598414" expanded="true" signature="56521:56598" ph="..." />
+            <element signature="e#25770#30569#0#HTML" />
+            <element signature="e#32951#32971#0#HTML" expanded="true" />
+            <marker date="1534717517440" expanded="true" signature="13:36" ph="..." />
+            <marker date="1534717517440" expanded="true" signature="52:61" ph="..." />
+            <marker date="1534717517440" expanded="true" signature="172:248" ph="..." />
+            <marker date="1534717517440" expanded="true" signature="7789:7819" ph="..." />
+            <marker date="1534717517440" expanded="true" signature="46614:46632" ph="..." />
+            <marker date="1534717517440" expanded="true" signature="46732:46740" ph="..." />
+            <marker date="1534717517440" expanded="true" signature="68772:68841" ph="..." />
+            <marker date="1534717517440" expanded="true" signature="68905:68982" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="213" column="66" selection-start-line="213" selection-start-column="66" selection-end-line="213" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="436" column="66" selection-start-line="436" selection-end-line="437" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="314" column="64" selection-start-line="314" selection-start-column="64" selection-end-line="314" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
         </state>
       </provider>
     </entry>
