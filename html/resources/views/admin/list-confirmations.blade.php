@@ -131,7 +131,7 @@
                                 <td>{{$booking->tel}}</td>
                                 <td>{{$booking->id}}</td>
 
-                              <td>{{$booking->canceled}}</td>
+                              <td >{{$booking->canceled}}</td>
 
                                 <td>{{$booking->created_at}}</td>
                                 <td>

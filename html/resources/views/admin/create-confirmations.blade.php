@@ -498,7 +498,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
+
 <div style="display:none" id="displaybox">
+    <div class="m-form__heading">
+        <h3 class="m-form__heading-title">
+            Private Golf Transfers
+        </h3>
+    </div>
                                                 <div id="boxcc" >
                                                     <div class="form-group  m-form__group row" >
                                                         <label  class="col-lg-2 col-form-label">
