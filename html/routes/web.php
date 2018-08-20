@@ -23,12 +23,13 @@ Route::get('/delete_conf/{id}','admin\AdminController@delete_booking')->name('de
 Route::get('/generatepdf/{id}','admin\AdminController@generate_pdf')->name('generate_pdf');
 Route::get('/generatepdfvoucher/{id}','admin\AdminController@generate_pdf_voucher')->name('generate_pdf_voucher');
 Route::get('create-voucher/{id}', 'admin\AdminController@create_voucher')->name('create_voucher');
+
 Route::post('/validate_confirmation', 'admin\AdminController@validate_confirmation')->name('validate_confirmation');
 Route::post('/save_voucher','admin\AdminController@save_voucher')->name('save_voucher');
 
 
 
-
+Route::get('/clone-conf/{id}','admin\AdminController@clone_conf')->name('clone-conf');
 
 
 });

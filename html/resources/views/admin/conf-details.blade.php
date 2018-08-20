@@ -123,7 +123,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 														 INVOICE NO.
 													 </span>
                                                 <span class="m-invoice__text" style="color: grey">
-														 {{$book->conf_invoice}}
+														 {{$book->id}}
 													 </span>
                                             </div>
 

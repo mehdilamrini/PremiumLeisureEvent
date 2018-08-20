@@ -127,9 +127,12 @@ var WizardDemo = function () {
                             "type": "success",
                             "confirmButtonClass": "btn btn-secondary m-btn m-btn--wide"
                         }).then(function(){
-                                //location.reload();
+                                location.reload();
 
-                            window.location='confirmations'
+                            //window.location='confirmations'
+
+
+
                             }
                         );
 

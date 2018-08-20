@@ -227,7 +227,7 @@ public  function  validate_confirmation(Request $request){
         $privategolf->save();
     }
 
-   // return  redirect()->route('list-all-confirmations');
+    return  redirect()->route('list-all-confirmations');
 }
 }
 
@@ -302,8 +302,23 @@ public  function delete_booking($id){
         return view('admin.conf-details',compact('book','guests','accs','teetimes','airport','golftrans'));
             }
 
+    public function  clone_conf($id){
 
-            public function create_voucher($id){
+        $book=  Booking::where('id',$id)->first();
+        $guests=$book->guests()->get();
+        $accs=$book->accomodations()->first();
+        $teetimes=$book->teetimes()->get();
+        $airport= $book->airports()->first();
+        $golftrans= $book->golftrans()->get();
+
+        return view('admin.create-confirmations-clone',compact('book','guests','accs','teetimes','airport','golftrans'));
+
+
+            }
+
+
+
+public function create_voucher($id){
 
                 $book= Booking::where('id',$id)->first();
                 $customers= $book->guests()->get();
@@ -385,6 +400,8 @@ public  function delete_booking($id){
 
                 return view('admin.voucher-details',compact('book','guests','accs','teetimes','airport','voucher'));
             }
+
+
 
 
 

@@ -142,8 +142,10 @@
                                             </a>
                                             <div class="dropdown-menu dropdown-menu-right ">
 
-                                                <button onclick="window.location='{{ Route("conf-details" ,$booking->id) }}'"  class="dropdown-item" ><i class="la la-search-plus"></i>View Confirrmation</button>
-                                                @if($booking->vouchers()->first() != null )
+                                                <button onclick="window.location='{{ Route("conf-details" ,$booking->id) }}'"  class="dropdown-item" ><i class="la la-search-plus"></i>View Confirmation</button>
+                                                 <button onclick="window.location='{{ Route("clone-conf" ,$booking->id) }}'"  class="dropdown-item" ><i class="la la-copy"></i>Clone Confirmation</button>
+
+                                            @if($booking->vouchers()->first() != null )
                                                 <button onclick="window.location='{{ Route("create_voucher" ,$booking->id) }}'"  class="dropdown-item" ><i class="la la-search-plus"></i>View Voucher</button>
                                                     <button onclick="window.location='{{ Route("generate_pdf_voucher" ,$booking->id) }}'"  class="dropdown-item" ><i class="la la-file-pdf-o"></i>Download Voucher</button>
                                                     @else

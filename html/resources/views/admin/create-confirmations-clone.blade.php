@@ -162,7 +162,7 @@
                                                             * Date:
                                                         </label>
                                                         <div class="col-xl-9 col-lg-9">
-                                                            <input type="date" name="date" class="form-control m-input" placeholder="" value="" >
+                                                            <input type="date" name="date" class="form-control m-input" placeholder="" value="{{$book->date}}" >
                                                             <span class="m-form__help">
                                                                             Please enter issue date
                                                                         </span>
@@ -173,7 +173,7 @@
                                                             * To:
                                                         </label>
                                                         <div class="col-xl-9 col-lg-9">
-                                                            <input type="text" name="to" class="form-control m-input" placeholder="" value="">
+                                                            <input type="text" name="to" class="form-control m-input" placeholder="" value="{{$book->to}}">
                                                             <span class="m-form__help">
                                                                             Please enter address
                                                                         </span>
@@ -192,7 +192,7 @@
                                                                                     <i class="la la-at"></i>
                                                                                 </span>
                                                             </div>
-                                                            <input type="email" name="email" class="form-control m-input" placeholder="" value="">                                                        </div>
+                                                            <input type="email" name="email" class="form-control m-input" placeholder="" value="{{$book->email}}">                                                        </div>
 
                                                             <span class="m-form__help">
                                                                             Please enter email
@@ -214,7 +214,7 @@
                                                                                     <i class="la la-phone"></i>
                                                                                 </span>
                                                                 </div>
-                                                                <input type="text" name="tel" class="form-control m-input" placeholder="" value="">
+                                                                <input type="text" name="tel" class="form-control m-input" placeholder="" value="{{$book->tel}}">
                                                             </div>
                                                             <span class="m-form__help">
                                                                             Enter  valid phone
@@ -241,7 +241,7 @@
                                                                                     <i class="la la-gear"></i>
                                                                                 </span>
                                                             </div>
-                                                            <input type="text" name="ust" class="form-control m-input" placeholder="" value="">
+                                                            <input type="text" name="ust" class="form-control m-input" placeholder="" value="{{$book->ustldnr}}">
                                                         </div>
                                                         <span class="m-form__help">
                                                                             Enter USt-IdNr number
@@ -282,13 +282,13 @@
                                                         </h3>
                                                     </div>
 
-
-                                                    <div id="boxclone">
-                                                        <div class="form-group  m-form__group row" >
+                                            @foreach($guests as $key=>$g)
+                                                    <div id="boxclone" class="removeclass{{$g->id}}">
+                                                        <div class="form-group  m-form__group row " >
                                                             <label  class="col-lg-2 col-form-label">
                                                             </label>
                                                             <div data-repeater-list="" class="col-lg-10">
-                                                                <div data-repeater-item class="form-group m-form__group row align-items-center">
+                                                                <div data-repeater-item style="padding-bottom: 20px;" class="form-group m-form__group row align-items-center">
                                                                     <div class="col-md-3">
                                                                         <div class="m-form__group m-form__group--inline">
                                                                             <div class="m-form__label">
@@ -296,7 +296,7 @@
                                                                             </div>
                                                                             <div class="m-form__control">
 
-                                                                                <input type="text" name="fname[]" class="form-control m-input" placeholder="First Name">
+                                                                                <input type="text" name="fname[]" class="form-control m-input" placeholder="First Name" value="{{$g->FirstName}}">
 
                                                                             </div>
                                                                         </div>
@@ -309,7 +309,7 @@
                                                                             </div>
                                                                             <div class="m-form__control">
 
-                                                                                <input type="text" name="lname[]" class="form-control m-input" placeholder="Last Name">
+                                                                                <input type="text" name="lname[]" class="form-control m-input" placeholder="Last Name" value="{{$g->LastName}}">
 
                                                                             </div>
 
@@ -323,7 +323,7 @@
                                                                             </div>
                                                                             <div class="m-form__control">
 
-                                                                                <input type="text"  name="guest_details[]" class="form-control m-input" placeholder="More Details">
+                                                                                <input type="text"  name="guest_details[]" class="form-control m-input" placeholder="More Details" value="{{$g->Details}}">
 
 
                                                                             </div>
@@ -332,7 +332,7 @@
                                                                     </div>
 
 
-
+    @if($key == 0)
                                                                     <div class="col-md-3">
 
                                                                         <button type='button' id="addpallet" class="btn btn btn-sm btn-brand m-btn m-btn--icon m-btn--pill m-btn--wide">
@@ -344,18 +344,29 @@
                                                             </span>
                                                                         </button>
 
-
-
                                                                     </div>
+            @else
+                                                                        <div class="col-md-3">
 
+                                                                            <button type='button' id="addpallet" class="btn-sm btn btn-danger m-btn m-btn--icon m-btn--pill" onclick="remove_fields({{$g->id}});">
+    <span>
+                                                                <i class="la la-trash-o"></i>
+                                                                <span>
+                                                                    Delete
+                                                                </span>
+                                                            </span>
+                                                                            </button>
 
+                                                                        </div>
+
+@endif
 
                                                                 </div>
                                                             </div>
                                                         </div>
 
                                                     </div>
-
+    @endforeach
 
                                                 </div>
                                             </div>
@@ -377,7 +388,7 @@
                                                             <label class="form-control-label">
                                                                 * Details:
                                                             </label>
-                                                            <input type="text" name="acc" class="form-control m-input" placeholder="Hotel & Rooms Details" value="" required>
+                                                            <input type="text" name="acc" class="form-control m-input" placeholder="Hotel & Rooms Details" value="{{$accs->Details}}" required>
                                                             <span class="m-form__help">
                                                                             Example: 4 Double Rooms on ALL INCLUSIVE from 3rd to 10th May 2018 (07 Nights) at the RIU TIKIDA PALACE HOTEL in AGADIR
                                                                         </span>
@@ -395,12 +406,14 @@
                                                         </h3>
                                                     </div>
 
-                                                    <div id="boxc">
+
+                                                    @foreach( $teetimes as $key=> $t)
+                                                    <div id="boxc" class="removeclass{{$t->id}}">
                                                         <div class="form-group  m-form__group row" >
                                                             <label  class="col-lg-2 col-form-label">
                                                             </label>
                                                             <div data-repeater-list="" class="col-lg-10">
-                                                                <div data-repeater-item class="form-group m-form__group row align-items-center">
+                                                                <div data-repeater-item style="padding-bottom: 20px;" class="form-group m-form__group row align-items-center">
                                                                     <div class="col-md-3">
                                                                         <div class="m-form__group m-form__group--inline">
                                                                             <div class="m-form__label">
@@ -408,7 +421,7 @@
                                                                             </div>
                                                                             <div class="m-form__control">
 
-                                                                                <input type="text" name="teedate[]" class="form-control m-input" placeholder="Date" value="Ex: 4th May" required >
+                                                                                <input type="text" name="teedate[]" class="form-control m-input" placeholder="Date" value="{{$t->Date}}" required >
 
 
                                                                             </div>
@@ -422,7 +435,7 @@
                                                                             </div>
                                                                             <div class="m-form__control">
 
-                                                                                <input type="text" name="teedetails[]" class="form-control m-input" placeholder="Details" value="Tee Details" required>
+                                                                                <input type="text" name="teedetails[]" class="form-control m-input" placeholder="Details" value="{{$t->Details}}" required>
 
                                                                             </div>
 
@@ -436,7 +449,7 @@
                                                                             </div>
                                                                             <div class="m-form__control">
 
-                                                                                <input type="text"  name="teehour[]" class="form-control m-input" placeholder="Hour" value="Ex: 12h02" required>
+                                                                                <input type="text"  name="teehour[]" class="form-control m-input" placeholder="Hour" value="{{$t->Time}}" required>
 
 
                                                                             </div>
@@ -445,7 +458,7 @@
                                                                     </div>
 
 
-
+@if( $key == 0 )
                                                                     <div class="col-md-3">
 
                                                                         <button type='button' id="addpallet2" class="btn btn btn-sm btn-brand m-btn m-btn--icon m-btn--pill m-btn--wide">
@@ -460,11 +473,30 @@
 
 
                                                                     </div>
+    @else
+                                                                        <div class="col-md-3">
+
+                                                                            <button type='button' id="addpallet" class="btn-sm btn btn-danger m-btn m-btn--icon m-btn--pill" onclick="remove_fields({{$t->id}});">
+    <span>
+                                                                <i class="la la-trash-o"></i>
+                                                                <span>
+                                                                    Delete
+                                                                </span>
+                                                            </span>
+                                                                            </button>
+
+                                                                        </div>
+
+
+                                                                    @endif
                                                                 </div>
                                                             </div>
                                                         </div>
 
                                                     </div>
+                                                    @endforeach
+
+
 
 
 
@@ -475,7 +507,11 @@
                                                         <div class="col-lg-12 col-xl-8">
                                                             <div class="m-checkbox-inline m--padding-top-3">
                                                                 <label class="m-checkbox">
-                                                                    <input type="checkbox" name="cuddies_included" value="1">
+                                                                        @if ($book->caddies_buggies == 1)
+                                                                    <input type="checkbox" name="cuddies_included" value="1" checked>
+                                                                    @else
+                                                                        <input type="checkbox" name="cuddies_included" value="1" >
+                                                                        @endif
                                                                     <span></span>
                                                                 </label>
                                                             </div>
@@ -491,26 +527,37 @@
                                                         <div class="col-lg-12 col-xl-8">
                                                             <div class="m-checkbox-inline m--padding-top-3">
                                                                 <label class="m-checkbox">
+                                                                    @if ($book->free_golf_shuttles == 1)
                                                                     <input type="checkbox" id="mycheckbox" name="shuttle_included" value="1" checked>
-                                                                    <span></span>
+                                                                    @else
+                                                                        <input type="checkbox" id="mycheckbox" name="shuttle_included" value="1" >
+                                                                    @endif
+                                                                        <span></span>
                                                                 </label>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
 
+@if ($book->free_golf_shuttles == 1)
 <div style="display:none" id="displaybox">
-    <div class="m-form__heading">
+    @else
+        <div id="displaybox" >
+            @endif
+
+        <div class="m-form__heading">
         <h3 class="m-form__heading-title">
             Private Golf Transfers
         </h3>
     </div>
-                                                <div id="boxcc" >
+
+                @forelse($golftrans as $key=> $gs)
+                                                <div id="boxcc" class="removeclass{{$gs->id}}">
                                                     <div class="form-group  m-form__group row" >
                                                         <label  class="col-lg-2 col-form-label">
                                                         </label>
                                                         <div data-repeater-list="" class="col-lg-10">
-                                                            <div data-repeater-item class="form-group m-form__group row align-items-center">
+                                                            <div data-repeater-item style="padding-bottom: 20px" class="form-group m-form__group row align-items-center">
                                                                 <div class="col-md-3">
                                                                     <div class="m-form__group m-form__group--inline">
                                                                         <div class="m-form__label">
@@ -518,7 +565,7 @@
                                                                         </div>
                                                                         <div class="m-form__control">
 
-                                                                            <input type="date" name="privateDate[]" class="form-control m-input" placeholder="Date"  >
+                                                                            <input type="text" name="privateDate[]" class="form-control m-input" placeholder="Date"  value="{{$gs->Date}}" >
 
 
                                                                         </div>
@@ -532,7 +579,7 @@
                                                                         </div>
                                                                         <div class="m-form__control">
 
-                                                                            <input type="text" name="privateClub[]" class="form-control m-input" placeholder="Golf Club"  >
+                                                                            <input type="text" name="privateClub[]" class="form-control m-input" placeholder="Golf Club"  value="{{$gs->GolfClub}}">
 
                                                                         </div>
 
@@ -546,7 +593,7 @@
                                                                         </div>
                                                                         <div class="m-form__control">
 
-                                                                            <input type="text"  name="privateHour[]" class="form-control m-input" placeholder="Hours"  >
+                                                                            <input type="text"  name="privateHour[]" class="form-control m-input" placeholder="Hours"  value="{{$gs->DepartureTime}}">
 
 
                                                                         </div>
@@ -555,8 +602,10 @@
                                                                 </div>
 
 
+@if( $key == 0 )
 
-                                                                <div class="col-md-3">
+
+          <div class="col-md-3">
 
                                                                     <button type='button' id="addpallet3" class="btn btn btn-sm btn-brand m-btn m-btn--icon m-btn--pill m-btn--wide">
     <span>
@@ -570,11 +619,106 @@
 
 
                                                                 </div>
+    @else
+                                                                    <div class="col-md-3">
+
+                                                                        <button type='button' id="addpallet" class="btn-sm btn btn-danger m-btn m-btn--icon m-btn--pill" onclick="remove_fields({{$gs->id}});">
+    <span>
+                                                                <i class="la la-trash-o"></i>
+                                                                <span>
+                                                                    Delete
+                                                                </span>
+                                                            </span>
+                                                                        </button>
+
+                                                                    </div>
+    @endif
                                                             </div>
                                                         </div>
                                                     </div>
 
                                                 </div>
+
+                @empty
+
+                <div id="boxcc" >
+                    <div class="form-group  m-form__group row" >
+                        <label  class="col-lg-2 col-form-label">
+                        </label>
+                        <div data-repeater-list="" class="col-lg-10">
+                            <div data-repeater-item style="padding-bottom: 20px" class="form-group m-form__group row align-items-center">
+                                <div class="col-md-3">
+                                    <div class="m-form__group m-form__group--inline">
+                                        <div class="m-form__label">
+
+                                        </div>
+                                        <div class="m-form__control">
+
+                                            <input type="date" name="privateDate[]" class="form-control m-input" placeholder="Date"   >
+
+
+                                        </div>
+                                    </div>
+                                    <div class="d-md-none m--margin-bottom-10"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="m-form__group m-form__group--inline">
+                                        <div class="m-form__label">
+
+                                        </div>
+                                        <div class="m-form__control">
+
+                                            <input type="text" name="privateClub[]" class="form-control m-input" placeholder="Golf Club"  >
+
+                                        </div>
+
+                                    </div>
+                                    <div class="d-md-none m--margin-bottom-10"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="m-form__group m-form__group--inline">
+                                        <div class="m-form__label">
+
+                                        </div>
+                                        <div class="m-form__control">
+
+                                            <input type="text"  name="privateHour[]" class="form-control m-input" placeholder="Hours"  >
+
+
+                                        </div>
+                                    </div>
+                                    <div class="d-md-none m--margin-bottom-10"></div>
+                                </div>
+
+
+
+
+                                    <div class="col-md-3">
+
+                                        <button type='button' id="addpallet3" class="btn btn btn-sm btn-brand m-btn m-btn--icon m-btn--pill m-btn--wide">
+    <span>
+                                                                <i class="la la-plus"></i>
+                                                                <span>
+                                                                    Add
+                                                                </span>
+                                                            </span>
+                                        </button>
+
+
+
+                                    </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+                    @endforelse
 </div>
 
 
@@ -593,7 +737,7 @@
                                                             <label class="form-control-label">
                                                                 * ARRIVAL Airport Transfer :
                                                             </label>
-                                                            <input type="text" name="arrival" class="form-control m-input" placeholder="ARRIVAL Airport Transfer " value="" required>
+                                                            <input type="text" name="arrival" class="form-control m-input" placeholder="ARRIVAL Airport Transfer" value="{{$airport->Arrival_Details}}" required>
                                                             <span class="m-form__help">
                                                                             Example:3rd May 2018; Transfer from AGADIR AIRPORT to RIU TIKIDA GOLF PALACE HOTEL –  Flight No GM3516 ; Arrival Time at 09h25
                                                                         </span>
@@ -605,7 +749,7 @@
                                                             <label class="form-control-label">
                                                                 * RETURN Airport Transfer :
                                                             </label>
-                                                            <input type="text" name="departure" class="form-control m-input" placeholder="ARRIVAL Airport Transfer " value="" required>
+                                                            <input type="text" name="departure" class="form-control m-input" placeholder="ARRIVAL Airport Transfer"  value="{{$airport->Return_Details}}" required>
                                                             <span class="m-form__help">
                                                                             Example:10th May 2018; Transfer from RIU TIKIDA GOLF PALACE HOTEL to AGADIR AIRPORT – Flight No GM3517 ; Flight Departure Time at 15h30 (Departure from the Hotel at 12h30)
                                                                         </span>
@@ -631,7 +775,7 @@
                                                             <label class="form-control-label">
                                                                 Total Amount due :
                                                             </label>
-                                                            <input type="number" name="amount" class="form-control m-input" placeholder="ARRIVAL Airport Transfer " value="" required>
+                                                            <input type="number" name="amount" class="form-control m-input" placeholder="ARRIVAL Airport Transfer " value="{{$book->amount}}" required>
                                                             <span class="m-form__help">
                                                                             Example: 7720.65
                                                         </div>
@@ -642,7 +786,7 @@
                                                             <label class="form-control-label">
                                                                 Details :
                                                             </label>
-                                                            <input type="text" name="amount_details" class="form-control m-input" placeholder="ARRIVAL Airport Transfer ">
+                                                            <input type="text" name="amount_details" class="form-control m-input" placeholder="ARRIVAL Airport Transfer "value="{{$book->amount_details}}">
                                                             <span class="m-form__help">Price per GOLFER on ALL INCLUSIVE in a Double Room: 965 Euros x 8 Golfers = 7720 Euros 																	</span>
                                                         </div>
                                                     </div>
@@ -1020,6 +1164,16 @@
 
                 });
 
+
+
+            </script>
+
+            <script>
+
+                function remove_fields(rid) {
+                    $('.removeclass'+rid).remove();
+
+                }
 
 
             </script>

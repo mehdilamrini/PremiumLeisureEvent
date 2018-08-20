@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3c62165-118e-4601-87b0-5d9a2a6c5b13" name="Default" comment="dynamic private golf transfer">
-      <change afterPath="$PROJECT_DIR$/html/public/assets/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/resources/views/admin/create-confirmations-clone.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,18 +38,18 @@
           <entry key="gif" value="1" />
           <entry key="htaccess" value="1" />
           <entry key="jpg" value="2" />
-          <entry key="js" value="8" />
-          <entry key="php" value="21" />
+          <entry key="js" value="9" />
+          <entry key="php" value="24" />
           <entry key="png" value="9" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="12" />
+          <entry key="Blade" value="14" />
           <entry key="Image" value="12" />
-          <entry key="JavaScript" value="8" />
-          <entry key="PHP" value="9" />
+          <entry key="JavaScript" value="9" />
+          <entry key="PHP" value="10" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
           <entry key="htaccess" value="1" />
@@ -53,21 +57,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="124" />
-          <entry key="php" value="1540" />
+          <entry key="js" value="130" />
+          <entry key="php" value="2406" />
           <entry key="txt" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1181" />
-          <entry key="JavaScript" value="124" />
-          <entry key="PHP" value="359" />
+          <entry key="Blade" value="1960" />
+          <entry key="JavaScript" value="130" />
+          <entry key="PHP" value="446" />
           <entry key="PLAIN_TEXT" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
+          <entry key="git.branch.delete.remote" value="2" />
           <entry key="git.branch.rename" value="1" />
         </counts>
       </usages-collector>
@@ -78,97 +83,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+            <state relative-caret-position="499">
+              <caret line="144" column="104" selection-start-line="144" selection-start-column="92" selection-end-line="144" selection-end-column="104" />
               <folding>
-                <marker date="1534764103054" expanded="true" signature="9:32" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="46:55" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="234:310" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="3147:3176" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="4977:4998" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="5037:5049" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="5095:5109" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="5156:5168" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="5214:5229" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="5275:5288" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="5334:5346" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="5457:5477" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="6154:6191" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="6333:6371" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="6457:6496" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="6668:6713" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="6946:6985" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="7214:7251" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="7592:7604" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="8930:8951" ph="..." />
-                <marker date="1534764103054" expanded="true" signature="9924:9942" ph="..." />
+                <element signature="e#5565#5605#0#HTML" expanded="true" />
+                <marker date="1534777733771" expanded="true" signature="9:32" ph="..." />
+                <marker date="1534777733771" expanded="true" signature="10123:10141" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="353" lean-forward="true" selection-start-line="353" selection-end-line="353" />
+            <state relative-caret-position="342">
+              <caret line="776" column="75" selection-start-line="776" selection-start-column="75" selection-end-line="776" selection-end-column="75" />
               <folding>
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#32952#32972#0#HTML" expanded="true" />
+                <element signature="e#44595#44601#0#HTML" expanded="true" />
+                <element signature="e#44601#44607#0#HTML" expanded="true" />
+                <element signature="e#45795#45801#0#HTML" expanded="true" />
+                <element signature="e#45801#45807#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/resources/views/auth/login.blade.php">
+        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations-clone.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo1.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6525">
-              <caret line="436" column="66" selection-start-line="436" selection-end-line="437" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3195">
-              <caret line="213" column="66" selection-start-line="213" selection-start-column="66" selection-end-line="213" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="504" column="34" selection-start-line="504" selection-start-column="34" selection-end-line="504" selection-end-column="34" />
+            <state relative-caret-position="194">
+              <caret line="656" column="61" selection-start-line="656" selection-start-column="57" selection-end-line="656" selection-end-column="61" />
               <folding>
+                <element signature="e#18871#18900#0#HTML" expanded="true" />
+                <element signature="e#27560#27589#0#HTML" expanded="true" />
+                <element signature="e#29783#30537#0#HTML" />
+                <element signature="e#34009#34029#0#HTML" expanded="true" />
+                <element signature="e#37043#37071#0#HTML" expanded="true" />
+                <element signature="e#37890#38632#0#HTML" />
+                <element signature="e#42674#42702#0#HTML" expanded="true" />
+                <element signature="e#45875#46617#0#HTML" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1534723217148" expanded="true" signature="13:36" ph="..." />
-                <marker date="1534723217148" expanded="true" signature="52:61" ph="..." />
-                <marker date="1534723217148" expanded="true" signature="172:248" ph="..." />
-                <marker date="1534723217148" expanded="true" signature="7789:7819" ph="..." />
-                <marker date="1534723217148" expanded="true" signature="46752:46770" ph="..." />
-                <marker date="1534723217148" expanded="true" signature="46870:46878" ph="..." />
-                <marker date="1534723217148" expanded="true" signature="68910:68979" ph="..." />
-                <marker date="1534723217148" expanded="true" signature="69043:69120" ph="..." />
               </folding>
             </state>
           </provider>
@@ -177,8 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="296" column="42" selection-start-line="296" selection-start-column="29" selection-end-line="296" selection-end-column="42" />
+            <state relative-caret-position="352">
+              <caret line="229" column="3" selection-start-line="229" selection-start-column="3" selection-end-line="229" selection-end-column="3" />
               <folding>
                 <element signature="e#46#68#0#PHP" expanded="true" />
               </folding>
@@ -187,10 +157,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/app/Booking.php">
+        <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="29" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="29" />
+            <state relative-caret-position="194">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -206,20 +176,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>name</find>
-      <find>4 dou</find>
-      <find>m_wizard</find>
-      <find>la la-trash m--font-danger</find>
-      <find>delete_conf</find>
-      <find>delete_booking</find>
-      <find>inv</find>
-      <find>acc</find>
-      <find>src</find>
-      <find>Guest's Names</find>
-      <find>first name</find>
-      <find>Free Golf Shuttles:</find>
-      <find>addpallet</find>
-      <find>boxc</find>
       <find>boxcc</find>
       <find>style=&quot;padding-bottom: 20px;&quot;</find>
       <find>add</find>
@@ -234,8 +190,22 @@
       <find>Num Invoice</find>
       <find>line</find>
       <find>m-login__logo</find>
+      <find>conf-details</find>
+      <find>guests</find>
+      <find>trash-o</find>
+      <find>remove</find>
+      <find>4 Double Rooms on ALL INCLUSIVE from 3rd to 10th May 2018 (07 Nights) at the RIU TIKIDA PALACE HOTEL in AGADIR</find>
+      <find>tee time</find>
+      <find>repeater</find>
       <find>tee</find>
       <find>$accs</find>
+      <find>invoice</find>
+      <find>private</find>
+      <find>golf</find>
+      <find>privateClub</find>
+      <find>type=&quot;date&quot;</find>
+      <find>date</find>
+      <find>privateDate</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/html/public/assets/agora</dir>
@@ -243,6 +213,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -254,15 +229,17 @@
         <option value="$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/html/app/PrivateGolfTrans.php" />
         <option value="$PROJECT_DIR$/html/database/migrations/2018_08_19_190922_create_private_golf_trans_table.php" />
-        <option value="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js" />
         <option value="$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php" />
         <option value="$PROJECT_DIR$/html/app/Booking.php" />
-        <option value="$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php" />
         <option value="$PROJECT_DIR$/html/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php" />
         <option value="$PROJECT_DIR$/html/public/assets/sweetalert.min.js" />
         <option value="$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php" />
+        <option value="$PROJECT_DIR$/html/routes/web.php" />
+        <option value="$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php" />
         <option value="$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php" />
+        <option value="$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js" />
+        <option value="$PROJECT_DIR$/html/resources/views/admin/create-confirmations-clone.blade.php" />
+        <option value="$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php" />
       </list>
     </option>
   </component>
@@ -387,25 +364,6 @@
               <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
               <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -414,6 +372,69 @@
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="forms" type="462c0819:PsiDirectoryNode" />
+              <item name="wizard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
@@ -443,6 +464,12 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="app.premiumleisureevent.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app.premiumleisureevent.com" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -456,11 +483,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/html/resources/views/admin" />
+      <recent name="$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo" />
       <recent name="$PROJECT_DIR$/html/public/uploads" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/html/public/uploads" />
     </key>
   </component>
@@ -540,12 +568,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28811000" />
+    <option name="totallyTimeSpent" value="37705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2739628" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -557,8 +586,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.45578232" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.46258503" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.14363144" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4985694" visible="true" weight="0.104761906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.104761906" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32944608" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -669,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -746,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -763,27 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6525">
-          <caret line="436" column="66" selection-start-line="436" selection-end-line="437" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3195">
-          <caret line="213" column="66" selection-start-line="213" selection-start-column="66" selection-end-line="213" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/app/Booking.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
-          <caret line="37" column="29" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="29" />
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -794,73 +792,99 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="213" column="66" selection-start-line="213" selection-start-column="66" selection-end-line="213" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/voucher-details.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="437" selection-start-line="437" selection-end-line="437" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/media/img/logo/logo1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/resources/views/admin/list-confirmations.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+        <state relative-caret-position="499">
+          <caret line="144" column="104" selection-start-line="144" selection-start-column="92" selection-end-line="144" selection-end-column="104" />
           <folding>
-            <marker date="1534764103054" expanded="true" signature="9:32" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="46:55" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="234:310" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="3147:3176" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="4977:4998" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="5037:5049" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="5095:5109" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="5156:5168" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="5214:5229" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="5275:5288" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="5334:5346" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="5457:5477" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="6154:6191" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="6333:6371" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="6457:6496" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="6668:6713" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="6946:6985" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="7214:7251" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="7592:7604" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="8930:8951" ph="..." />
-            <marker date="1534764103054" expanded="true" signature="9924:9942" ph="..." />
+            <element signature="e#5565#5605#0#HTML" expanded="true" />
+            <marker date="1534777733771" expanded="true" signature="9:32" ph="..." />
+            <marker date="1534777733771" expanded="true" signature="10123:10141" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/app/Http/Controllers/admin/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="296" column="42" selection-start-line="296" selection-start-column="29" selection-end-line="296" selection-end-column="42" />
+        <state relative-caret-position="352">
+          <caret line="229" column="3" selection-start-line="229" selection-start-column="3" selection-end-line="229" selection-end-column="3" />
           <folding>
             <element signature="e#46#68#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php">
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="504" column="34" selection-start-line="504" selection-start-column="34" selection-end-line="504" selection-end-column="34" />
+        <state relative-caret-position="87">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/public/assets/demo/default/custom/components/forms/wizard/wizard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations-clone.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="656" column="61" selection-start-line="656" selection-start-column="57" selection-end-line="656" selection-end-column="61" />
           <folding>
+            <element signature="e#18871#18900#0#HTML" expanded="true" />
+            <element signature="e#27560#27589#0#HTML" expanded="true" />
+            <element signature="e#29783#30537#0#HTML" />
+            <element signature="e#34009#34029#0#HTML" expanded="true" />
+            <element signature="e#37043#37071#0#HTML" expanded="true" />
+            <element signature="e#37890#38632#0#HTML" />
+            <element signature="e#42674#42702#0#HTML" expanded="true" />
+            <element signature="e#45875#46617#0#HTML" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1534723217148" expanded="true" signature="13:36" ph="..." />
-            <marker date="1534723217148" expanded="true" signature="52:61" ph="..." />
-            <marker date="1534723217148" expanded="true" signature="172:248" ph="..." />
-            <marker date="1534723217148" expanded="true" signature="7789:7819" ph="..." />
-            <marker date="1534723217148" expanded="true" signature="46752:46770" ph="..." />
-            <marker date="1534723217148" expanded="true" signature="46870:46878" ph="..." />
-            <marker date="1534723217148" expanded="true" signature="68910:68979" ph="..." />
-            <marker date="1534723217148" expanded="true" signature="69043:69120" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/conf-details.blade.php">
+    <entry file="file://$PROJECT_DIR$/html/resources/views/admin/create-confirmations.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="353" lean-forward="true" selection-start-line="353" selection-end-line="353" />
+        <state relative-caret-position="342">
+          <caret line="776" column="75" selection-start-line="776" selection-start-column="75" selection-end-line="776" selection-end-column="75" />
           <folding>
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#32952#32972#0#HTML" expanded="true" />
+            <element signature="e#44595#44601#0#HTML" expanded="true" />
+            <element signature="e#44601#44607#0#HTML" expanded="true" />
+            <element signature="e#45795#45801#0#HTML" expanded="true" />
+            <element signature="e#45801#45807#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
