@@ -30,17 +30,9 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <style>
 
-    .line {
 
-        display: block;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 2px;
 
-    }
+
 
 </style>
 
@@ -240,7 +232,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
                                 <h5 align="center">Kind regards</h5>
 
-                                <h5 align="center">  Mohamed</h5>
+                                <h5 align="center">Mohamed</h5>
                                 </div>
 
 
@@ -248,7 +240,8 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                 <?php $var=0; ?>
                                 <div class="m-invoice__body m-invoice__body--centered">
 
-                                    <hr class="line" >
+
+                                    <div style='overflow:hidden; white-space:nowrap;'>&#9986;<hr style='display:inline-block; width:100%;border-top: 1px dotted #8c8b8b;' /></div>
 
                                     <div class="table-responsive">
                                         <table class="table">
@@ -256,7 +249,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                             <tr>
                                                 <th class="m--font-brand" >                                <?php $var++; ?>
 
-                                                    Hotel Voucher - {{$book->conf_invoice}}-{{$var}}
+                                                    Hotel Voucher {{$book->conf_invoice}}-{{$var}}
                                                 </th>
 
                                                 <th class="m--font-brand">
@@ -307,7 +300,8 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
                                 @foreach($teetimes as $t)
                                 <div class="m-invoice__body m-invoice__body--centered">
-                                    <hr class="line" >
+                                    <div style='overflow:hidden; white-space:nowrap;'>&#9986;<hr style='display:inline-block; width:100%;border-top: 1px dotted #8c8b8b;' /></div>
+
 
                                     <div class="table-responsive">
                                         <table class="table">
@@ -315,7 +309,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                             <tr>
                                                 <th class="m--font-brand" >                                <?php $var++; ?>
 
-                                                    Golf Voucher - {{$book->conf_invoice}}-{{$var}}
+                                                    Golf Voucher {{$book->conf_invoice}}-{{$var}}
                                                 </th>
 
                                                 <th class="m--font-brand">
@@ -376,14 +370,15 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
                                 <div class="m-invoice__body m-invoice__body--centered">
 
-                                    <hr class="line" >
+                                    <div style='overflow:hidden; white-space:nowrap;'>&#9986;<hr style='display:inline-block; width:100%;border-top: 1px dotted #8c8b8b;' /></div>
+
                                     <div class="table-responsive">
                                         <table class="table">
                                             <thead>
                                             <tr>
                                                 <th class="m--font-brand" >                                <?php $var++; ?>
 
-                                                    Transfer Voucher - {{$book->conf_invoice}}-{{$var}}
+                                                    Transfer Voucher {{$book->conf_invoice}}-{{$var}}
                                                 </th>
 
                                                 <th class="m--font-brand">
@@ -439,7 +434,8 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                             </tbody>
                                         </table>
 
-                                        <hr class="line" >
+                                        <div style='overflow:hidden; white-space:nowrap;'>&#9986;<hr style='display:inline-block; width:100%;border-top: 1px dotted #8c8b8b;' /></div>
+
                                     </div>
                                 </div>
 

@@ -121,16 +121,17 @@ var WizardDemo = function () {
                     success: function() {
                         mApp.unprogress(btn);
                         //mApp.unblock(formEl);
-
                         swal({
                             "title": "", 
                             "text": "The application has been successfully submitted!", 
                             "type": "success",
                             "confirmButtonClass": "btn btn-secondary m-btn m-btn--wide"
-                        }, function() {
-                            window.location.href = "";
-                        });
+                        }).then(function(){
+                                //location.reload();
 
+                            window.location='confirmations'
+                            }
+                        );
 
 
                     }

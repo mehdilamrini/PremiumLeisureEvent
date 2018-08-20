@@ -35,6 +35,10 @@ class Booking extends Model
         return $this->hasMany('App\Voucher' , 'idBooking');
     }
 
+    public function golftrans(){
+        return $this->hasMany('App\PrivateGolfTrans' , 'idBooking');
+    }
+
 
 
     protected static function boot() {

@@ -26,6 +26,7 @@ class CreateBookingsTable extends Migration
             $table->string('caddies_buggies');
             $table->float('amount');
             $table->string('amount_details');
+            $table->string('canceled')->nullable();
             $table->timestamps();
         });
     }

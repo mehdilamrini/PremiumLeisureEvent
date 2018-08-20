@@ -422,7 +422,7 @@
                                                                             </div>
                                                                             <div class="m-form__control">
 
-                                                                                <input type="text" name="teedetails[]" class="form-control m-input" placeholder="Details" required>
+                                                                                <input type="text" name="teedetails[]" class="form-control m-input" placeholder="Details" value="Tee Details" required>
 
                                                                             </div>
 
@@ -486,23 +486,98 @@
                                                     <div class="form-group m-form__group row">
                                                         <label class="col-lg-3 col-form-label">
                                                             Free Golf Shuttles:
+                                                            (Uncheck if private)
                                                         </label>
                                                         <div class="col-lg-12 col-xl-8">
                                                             <div class="m-checkbox-inline m--padding-top-3">
                                                                 <label class="m-checkbox">
-                                                                    <input type="checkbox" name="shuttle_included" value="1">
+                                                                    <input type="checkbox" id="mycheckbox" name="shuttle_included" value="1">
                                                                     <span></span>
                                                                 </label>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+
+<div style="display:none" id="displaybox">
+    <div class="m-form__heading">
+        <h3 class="m-form__heading-title">
+            Private Golf Transfers
+        </h3>
+    </div>
+                                                <div id="boxcc" >
+                                                    <div class="form-group  m-form__group row" >
+                                                        <label  class="col-lg-2 col-form-label">
+                                                        </label>
+                                                        <div data-repeater-list="" class="col-lg-10">
+                                                            <div data-repeater-item class="form-group m-form__group row align-items-center">
+                                                                <div class="col-md-3">
+                                                                    <div class="m-form__group m-form__group--inline">
+                                                                        <div class="m-form__label">
+
+                                                                        </div>
+                                                                        <div class="m-form__control">
+
+                                                                            <input type="text" name="privateDate[]" class="form-control m-input" placeholder="Date"  >
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-md-none m--margin-bottom-10"></div>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <div class="m-form__group m-form__group--inline">
+                                                                        <div class="m-form__label">
+
+                                                                        </div>
+                                                                        <div class="m-form__control">
+
+                                                                            <input type="text" name="privateClub[]" class="form-control m-input" placeholder="Golf Club"  >
+
+                                                                        </div>
+
+                                                                    </div>
+                                                                    <div class="d-md-none m--margin-bottom-10"></div>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <div class="m-form__group m-form__group--inline">
+                                                                        <div class="m-form__label">
+
+                                                                        </div>
+                                                                        <div class="m-form__control">
+
+                                                                            <input type="text"  name="privateHour[]" class="form-control m-input" placeholder="Hours"  >
+
+
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-md-none m--margin-bottom-10"></div>
+                                                                </div>
 
 
 
+                                                                <div class="col-md-3">
+
+                                                                    <button type='button' id="addpallet3" class="btn btn btn-sm btn-brand m-btn m-btn--icon m-btn--pill m-btn--wide">
+    <span>
+                                                                <i class="la la-plus"></i>
+                                                                <span>
+                                                                    Add
+                                                                </span>
+                                                            </span>
+                                                                    </button>
 
 
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
                                                 </div>
+</div>
+
+
                                                 <div class="m-separator m-separator--dashed m-separator--lg"></div>
                                                 <div class="m-form__section">
                                                     <div class="m-form__heading">
@@ -668,6 +743,95 @@
 
 
             <script>
+
+                $(document).ready(function () {
+                    var k=1;
+
+                    $('#addpallet3').click(function () {
+                        k++;
+                        $('#boxcc').append('                                                <div id="boxcc'+k+'" >\n' +
+                            '                                                    <div class="form-group  m-form__group row" >\n' +
+                            '                                                        <label  class="col-lg-2 col-form-label">\n' +
+                            '                                                        </label>\n' +
+                            '                                                        <div data-repeater-list="" class="col-lg-10">\n' +
+                            '                                                            <div data-repeater-item style="padding-bottom: 20px;" class="form-group m-form__group row align-items-center">\n' +
+                            '                                                                <div class="col-md-3">\n' +
+                            '                                                                    <div class="m-form__group m-form__group--inline">\n' +
+                            '                                                                        <div class="m-form__label">\n' +
+                            '\n' +
+                            '                                                                        </div>\n' +
+                            '                                                                        <div class="m-form__control">\n' +
+                            '\n' +
+                            '                                                                            <input type="text" name="privateDate[]" class="form-control m-input" placeholder="Date" value="Ex: 4th May" >\n' +
+                            '\n' +
+                            '\n' +
+                            '                                                                        </div>\n' +
+                            '                                                                    </div>\n' +
+                            '                                                                    <div class="d-md-none m--margin-bottom-10"></div>\n' +
+                            '                                                                </div>\n' +
+                            '                                                                <div class="col-md-3">\n' +
+                            '                                                                    <div class="m-form__group m-form__group--inline">\n' +
+                            '                                                                        <div class="m-form__label">\n' +
+                            '\n' +
+                            '                                                                        </div>\n' +
+                            '                                                                        <div class="m-form__control">\n' +
+                            '\n' +
+                            '                                                                            <input type="text" name="privateClub[]" class="form-control m-input" placeholder="Golf Club" value="Golf club" >\n' +
+                            '\n' +
+                            '                                                                        </div>\n' +
+                            '\n' +
+                            '                                                                    </div>\n' +
+                            '                                                                    <div class="d-md-none m--margin-bottom-10"></div>\n' +
+                            '                                                                </div>\n' +
+                            '                                                                <div class="col-md-3">\n' +
+                            '                                                                    <div class="m-form__group m-form__group--inline">\n' +
+                            '                                                                        <div class="m-form__label">\n' +
+                            '\n' +
+                            '                                                                        </div>\n' +
+                            '                                                                        <div class="m-form__control">\n' +
+                            '\n' +
+                            '                                                                            <input type="text"  name="privateHour[]" class="form-control m-input" placeholder="Hours" value="Ex: 12h02" >\n' +
+                            '\n' +
+                            '\n' +
+                            '                                                                        </div>\n' +
+                            '                                                                    </div>\n' +
+                            '                                                                    <div class="d-md-none m--margin-bottom-10"></div>\n' +
+                            '                                                                </div>\n' +
+                            '\n' +
+                            '\n' +
+                            '\n' +
+                            '                                                                <div class="col-md-3">\n' +
+                            '\n' +
+                            '                                                                    <div data-repeater-delete="" id="'+k+'" class="btn-sm btn btn-danger m-btn m-btn--icon m-btn--pill">\n' +
+                            '\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span>\n' +
+                            '\n' +
+                            '\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<i class="la la-trash-o"></i>\n' +
+                            '\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span>\n' +
+                            '\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDelete\n' +
+                            '\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n' +
+                            '\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</span>\n' +
+                            '                                                                    </div>\n' +
+                            '                                                                </div>\n' +
+                            '                                                            </div>\n' +
+                            '                                                        </div>\n' +
+                            '                                                    </div>\n' +
+                            '                                                </div>\n' +
+                            '                                                                        ');
+                    });
+                })
+
+                $(document).on('click' , '.btn-danger', function () {
+
+
+                    var button_id = $(this).attr("id");
+
+                    $('#boxcc'+button_id+'').remove();
+
+
+                })
+            </script>
+
+            <script>
                 $(document).ready(function () {
 
 
@@ -681,7 +845,7 @@
                             '                                                        <label  class="col-lg-2 col-form-label">\n' +
                             '                                                        </label>\n' +
                             '                                                        <div data-repeater-list="" class="col-lg-10">\n' +
-                            '                                                            <div data-repeater-item class="form-group m-form__group row align-items-center">\n' +
+                            '                                                            <div data-repeater-item style="padding-bottom: 20px;" class="form-group m-form__group row align-items-center">\n' +
                             '                                                                <div class="col-md-3">\n' +
                             '                                                                    <div class="m-form__group m-form__group--inline">\n' +
                             '                                                                        <div class="m-form__label">\n' +
@@ -770,19 +934,15 @@
 
 
                 $(document).ready(function () {
-
-
                     var j=1 ;
-
                     $('#addpallet2').click(function () {
-
                         i++;
                         $('#boxc').append('<div id="box'+j+'">\n' +
                             '                                                    <div class="form-group  m-form__group row" >\n' +
                             '                                                        <label  class="col-lg-2 col-form-label">\n' +
                             '                                                        </label>\n' +
                             '                                                        <div data-repeater-list="" class="col-lg-10">\n' +
-                            '                                                            <div data-repeater-item class="form-group m-form__group row align-items-center">\n' +
+                            '                                                            <div data-repeater-item style="padding-bottom: 20px;" class="form-group m-form__group row align-items-center">\n' +
                             '                                                                <div class="col-md-3">\n' +
                             '                                                                    <div class="m-form__group m-form__group--inline">\n' +
                             '                                                                        <div class="m-form__label">\n' +
@@ -864,7 +1024,9 @@
 
             </script>
 
-
+<script>$('#mycheckbox').change(function() {
+        $('#displaybox').toggle();
+    });</script>
 
 
 

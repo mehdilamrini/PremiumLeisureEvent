@@ -50,7 +50,7 @@ License: You must have a valid license purchased only from themeforest(the above
             <div class="m-login__container">
                 <div class="m-login__logo">
                     <a href="#">
-                        <img src="{{asset('assets/demo/default/media/img/logo/logo.png')}}">
+                        <img src="{{asset('assets/demo/default/media/img/logo/logo.png')}}" width="70%">
                     </a>
                 </div>
                 <div class="m-login__signin">

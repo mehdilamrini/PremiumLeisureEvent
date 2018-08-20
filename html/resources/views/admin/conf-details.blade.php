@@ -281,6 +281,50 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                             </table>
                                         </div>
                                     </div>
+                                    @else
+
+                                    <div class="m-invoice__body m-invoice__body--centered">
+                                        <div class="table-responsive">
+                                            <table class="table">
+                                                <thead>
+                                                <tr>
+                                                    <th>
+                                                        Private Golf Transfers
+                                                    </th>
+                                                    <th>
+                                                        Golf Club
+                                                    </th>
+                                                    <th>
+                                                        Departure Time from your Hotel
+                                                    </th>
+
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+
+                                                @foreach($golftrans as $g)
+                                                    <tr>
+                                                        <td>
+                                                            {{$g->Date}}
+                                                        </td>
+                                                        <td>
+                                                            {{$g->GolfClub}}
+                                                        </td>
+
+                                                        <td style="color: darkslategrey">
+                                                            {{$g->DepartureTime}}
+                                                        </td>
+
+                                                    </tr>
+                                                @endforeach
+
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+
+
                                 @endif
 
                                 <div class="m-invoice__body m-invoice__body--centered">
@@ -366,7 +410,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
 
                                     </div>
-                                </div>
+                                </div></br></br></br>
                                 <h4 align="center">Thank you for booking with PREMIUM LEISURE & EVENTS</h4>
                                 <img  src="{{asset('uploads/logo-footer.png')}}" height="100" style="display: block;
     margin: 0 auto;">

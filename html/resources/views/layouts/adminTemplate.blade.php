@@ -144,7 +144,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     @if(Auth::user()->Picture!=null)
                                                     <img src="{{asset('uploads/'.Auth::user()->Picture)}}" class="m--img-rounded m--marginless m--img-centered" alt=""/>
                                                     @else
-                                                    <img src="{{asset('uploads/userpic.png')}}" class="m--img-rounded m--marginless m--img-centered" alt=""/>
+                                                    <img src="{{asset('uploads/userpic.jpg')}}" class="m--img-rounded m--marginless m--img-centered" alt=""/>
                                                     @endIf
 
                                                 </span>

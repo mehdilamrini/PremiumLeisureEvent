@@ -7,6 +7,7 @@ use App\Airport;
 use App\Booking;
 use App\GuestsName;
 use App\Http\Controllers\Controller;
+use App\PrivateGolfTrans;
 use App\TeeTimes;
 
 use App\Voucher;
@@ -102,18 +103,14 @@ class AdminController extends Controller
     {
         //
     }
-    
+
 
 
 
     public function lister_confirmations(){
 
             $id=Auth::id();
-
                 $bookings = Booking::where('idUser',$id)->get();
-
-
-
              return view('admin.list-confirmations',compact('bookings'));
 
     }
@@ -125,7 +122,7 @@ class AdminController extends Controller
     }
 
 
-        
+
 
 public  function  validate_confirmation(Request $request){
 
@@ -139,12 +136,14 @@ public  function  validate_confirmation(Request $request){
             $booking->tel = $request->tel;
             $booking->email = $request->email;
             $booking->ustldnr = $request->ust;
+            $booking->canceled = "Confirmed";
             //$booking->conf_invoice = $request->inv;
 
             if ($request->shuttle_included != null )
             $booking->free_golf_shuttles = $request->shuttle_included;
             else
                 $booking->free_golf_shuttles = '0';
+
 
 
     if ($request->cuddies_included != null )
@@ -156,6 +155,8 @@ public  function  validate_confirmation(Request $request){
 
             //$booking->free_golf_shuttles = "1";
             //$booking->caddies_buggies = "1";
+
+
             $booking->amount = $request->amount;
             $booking->amount_details = $request->amount_details;
             $booking->save();
@@ -170,16 +171,13 @@ public  function  validate_confirmation(Request $request){
 
 
         for ($i=0; $i < count($input['fname']); ++$i){
-
         $guests =  new GuestsName();
         $guests->idBooking = $booking->id;
-
            // $guests->idBooking = 1;
         $guests->FirstName = $input['fname'][$i];
         $guests->LastName = $input['lname'][$i];
         $guests->Details = $input['guest_details'][$i];
         $guests->save();
-
     }
 
             $acc= new Accomodations();
@@ -187,15 +185,11 @@ public  function  validate_confirmation(Request $request){
             $acc->Details = $request->acc;
             $acc->save();
 
-
-
             $airport = new Airport();
             $airport->idBooking = $booking->id;
             $airport->Arrival_Details = $request->arrival;
             $airport->Return_Details = $request->departure;
             $airport->save();
-
-
 
 
     $inputt=array();
@@ -211,19 +205,38 @@ public  function  validate_confirmation(Request $request){
         $teetime->Details = $inputt['teedetails'][$i];
         $teetime->Time = $inputt['teehour'][$i];
         $teetime->save();
+    }
 
+
+
+
+     if ( $request->shuttle_included != '1' ){
+
+
+    $inputtt=array();
+    $inputtt['privateDate']=$request->privateDate;
+    $inputtt['privateClub']=$request->privateClub;
+    $inputtt['privateHour']=$request->privateHour;
+
+    for ($i=0; $i < count($inputtt['privateDate']); ++$i){
+        $privategolf =  new PrivateGolfTrans();
+        $privategolf->idBooking = $booking->id;
+        $privategolf->Date = $inputtt['privateDate'][$i];
+        $privategolf->GolfClub = $inputtt['privateClub'][$i];
+        $privategolf->DepartureTime = $inputtt['privateHour'][$i];
+        $privategolf->save();
     }
 
    // return  redirect()->route('list-all-confirmations');
-
-
 }
-
+}
 
 public  function delete_booking($id){
 
         $booking = Booking::find($id);
-        $booking->delete();
+        $booking->canceled = 'Canceled';
+        $booking->save();
+        //$booking->delete();
 
         return $booking;
 
@@ -250,11 +263,7 @@ public  function delete_booking($id){
             return $pdf->download($filename);
 
 
-
-
-
         }
-
             public  function generate_pdf($id){
 
                 set_time_limit(60 * 5);
@@ -288,8 +297,9 @@ public  function delete_booking($id){
                 $accs=$book->accomodations()->first();
                 $teetimes=$book->teetimes()->get();
                 $airport= $book->airports()->first();
+                $golftrans= $book->golftrans()->get();
 
-        return view('admin.conf-details',compact('book','guests','accs','teetimes','airport'));
+        return view('admin.conf-details',compact('book','guests','accs','teetimes','airport','golftrans'));
             }
 
 

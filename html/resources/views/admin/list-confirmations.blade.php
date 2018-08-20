@@ -1,11 +1,19 @@
 @extends('layouts.adminTemplate')
 
+
+
 @section('content')
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 
     <script src="{{asset('assets/demo/default/custom/components/datatables/base/html-table.js')}}" type="text/javascript"></script>
+<style>
 
+    .red {
+        background-color: red !important;
+    }
+
+</style>
 
     <div class="m-grid__item m-grid__item--fluid m-wrapper">
         <!-- BEGIN: Subheader -->
@@ -94,9 +102,13 @@
                             <th title="Field #4">
                                Tel
                             </th>
-                            <th title="Field #7">
+                            <th title="Field #5">
                                 Conf-Invoice
                             </th>
+                            <th title="Field #6">
+                                status
+                            </th>
+
                             <th title="Field #7">
                                 Created-at
                             </th>
@@ -109,12 +121,18 @@
                         <tbody>
 
                     @forelse($bookings as $booking)
-                            <tr id="{{$booking->id}}" >
+
+                          <tr id="{{$booking->id}}" >
+
+
                                 <td>{{$booking->date}}</td>
                                 <td> {{$booking->to}}</td>
                                 <td>{{$booking->email}}</td>
                                 <td>{{$booking->tel}}</td>
                                 <td>{{$booking->id}}</td>
+
+                              <td >{{$booking->canceled}}</td>
+
                                 <td>{{$booking->created_at}}</td>
                                 <td>
 
@@ -140,9 +158,11 @@
 
                                             </div>
                                         </div>
+                                        @if($booking->canceled != 'Canceled' )
                                         <button onclick="deleteuser('{{$booking->id}}')" class="m-portlet__nav-link btn m-btn m-btn--hover-accent m-btn--icon m-btn--icon-only m-btn--pill "  title="Delete ">
                                             <i class="la la-trash m--font-danger"></i>
                                         </button>
+                                            @endif
                                     </span>
 
                                 </td>
@@ -170,7 +190,7 @@
 
             swal({
                 title: "Are you sure?",
-                text: "Do you want to delete this booking confirmation??!",
+                text: "Do you want to Cancel this booking??!",
                 icon: "warning",
                 buttons: true,
                 dangerMode: true,
@@ -185,13 +205,11 @@
                             type: 'GET',
                             dat:{id:id},
                             success:function(msg) {
-                                var table = $('#html_table').DataTable();
-                                table.row( this ).delete();
-                                swal("Good","Booking Confirmation was successfully deleted","success");
-
-
-
-
+                                //var table = $('#html_table').DataTable();
+                                //table.row( this ).delete();
+                                swal("Good","Booking Confirmation was successfully canceled","success");
+                                location.reload();
+                              //  $(row).addClass('red');
                                 //  $("."+msg).remove();
 
                             }
@@ -210,48 +228,7 @@
     </script>
 
 
-    <script type="text/javascript">
-        function generate_pdf(id){
 
-            swal({
-                title: "Are you sure?",
-                text: "Do you want to download booking confirmation?",
-                icon: "warning",
-                buttons: true,
-                dangerMode: true,
-            })
-                .then((willDelete) => {
-                    if (willDelete) {
-                        $.ajax({
-                            headers: {
-                                'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                            },
-                            url: '{{ url('/generate_pdf') }}'+ '/' + id,
-                            type: 'GET',
-                            dat:{id:id},
-                            success:function(msg) {
-                                var table = $('#html_table').DataTable();
-                                table.row( this ).delete();
-                                swal("Good","Booking Confirmation was successfully downloaded","success");
-
-
-
-                                //  $("."+msg).remove();
-
-                            }
-                            ,
-                            error:function(){
-                                swal("Ops!", "Booking confirmation cannot be downloaded !", "error");
-
-                            }
-                        });
-                    }
-
-                    else
-                        return false;});
-        }
-
-    </script>
     <script type="text/javascript">
         @if (count($errors) > 0)
         $('#m_modal_4').modal('show');
