@@ -3,9 +3,8 @@
 
 
 @section('content')
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-
-
+    <!--script src="https://unpkg.com/sweetalert/dist/"></script!-->
+    <script src="{{asset('assets/sweetalert.min.js')}}" type="text/javascript"></script>
     <script src="{{asset('assets/demo/default/custom/components/datatables/base/html-table.js')}}" type="text/javascript"></script>
 <style>
 

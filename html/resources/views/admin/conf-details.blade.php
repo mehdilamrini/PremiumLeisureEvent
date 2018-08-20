@@ -181,6 +181,8 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                     </div>
                                 </div>
 
+
+                                @if($accs != null)
                                 <div class="m-invoice__body m-invoice__body--centered">
                                     <div class="table-responsive">
                                         <table class="table">
@@ -206,6 +208,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                         </table>
                                     </div>
                                 </div>
+                                @endif
 
 
                                 <div class="m-invoice__body m-invoice__body--centered">
@@ -327,6 +330,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
 
                                 @endif
 
+                                @if($airport != null)
                                 <div class="m-invoice__body m-invoice__body--centered">
                                     <div class="table-responsive">
                                         <table class="table">
@@ -354,6 +358,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                 </div>
 
 
+
                                 <div class="m-invoice__body m-invoice__body--centered">
                                     <div class="table-responsive">
                                         <table class="table">
@@ -379,7 +384,7 @@ Tel: +212 6 61287987 - Tel: +44 7904848163    -  Email: info@moroccogolfbreaks.c
                                         </table>
                                     </div>
                                 </div>
-
+                                @endif
 
 
                                 <div class="m-invoice__footer">
